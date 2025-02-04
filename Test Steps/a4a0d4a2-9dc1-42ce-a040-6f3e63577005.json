@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link ProAudioVideo -> Navigate to page 'application overview#applications/*/overview.html'",
+        "step 3: Click on link MotorDrives -> Navigate to page '/'",
+        "step 4: Click on link Applications",
+        "step 5: Click on link ProAudioVideo -> Navigate to page 'application overview#applications/*/overview.html'",
+        "step 6: Click on ti searchField (SearchField)",
+        "step 7: Enter input value in ti searchField (SearchField2)",
+        "step 8: Click on link ProfessionalAudioAmplifier -> Navigate to page 'professional audio amplifier solution#*/*'",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

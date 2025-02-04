@@ -1,0 +1,179 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Navigate to Industrial Applications Overview and Verify Page,"Access the home page, navigate to applications, select industrial applications, browse, and verify the overview page.","Step 1: Navigate to /
+Step 2: Click on link Applications
+Step 3: Click on link Industrial -> Navigate to page 'application overview#applications/*/overview.html'
+Step 4: Click on link BrowseApplications
+Step 5: Click on body marketLevelPage -> Navigate to page 'application overview#applications/*/*/overview.html'
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+2,Access Pro Audio Video Application Categories and Verify Page,"Navigate to applications overview, select application categories, choose pro audio video, and verify the application overview.","Step 1: Navigate to applications/*/overview.html
+Step 2: Click on link applicationCategories (Applications)
+Step 3: Click on link ProAudioVideo
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+12,Access Design Development Messages and Verify Home Page,"Navigate to design simulation tools, access key customer messages, and verify the home page.","Step 1: Navigate to */*
+Step 2: Click on div KeyCustomerMessages
+Step 3: Click on link DesignDevelopment
+Step 4: Click on div PageContent
+Step 5: Click on div KeyCustomerMessages
+Step 6: Click on header SimplifyDesignProcess
+Step 7: Click on header SimplifyDesignProcess -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+13,Search for Industrial Applications and Verify Home Page,"Navigate to pachinko machine solution, select industrial applications, and verify the home page.","Step 1: Navigate to */*
+Step 2: Click on header PageHeader
+Step 3: Click on link Industrial2 -> Navigate to page 'application overview#applications/*/overview.html'
+Step 4: Click on ti searchField (SearchField) -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+14,Login and Access List Manager from Dashboard,"Login to the application, access the list manager, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on ti Login
+Step 3: Click on ti Login
+Step 4: Click on ti Login
+Step 5: Click on div InternetExplorerWarning
+Step 6: Click on ti Login
+Step 7: Click on ti Login -> Navigate to page 'dashboard#myti-dashboard/*/*'
+Step 8: Click on link ListManager -> Navigate to page 'list manager#list-manager/*'
+Step 9: Click on link MaddysList -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+3,Search for Professional Audio Mixer Solution and Verify Home Page,"Navigate to applications, select pro audio video, search for a specific solution, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on link Applications -> Navigate to page 'application overview#applications/*/overview.html'
+Step 3: Click on link ProAudioVideo2
+Step 4: Click on atomic HeaderSearchBox
+Step 5: Enter input value in atomic HeaderSearchBox -> Navigate to page 'professional audio mixer solution#*/*'
+Step 6: Click on div EncoderKnobs -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Medium,NEW
+5,View Designs in Reference Designs and Verify Home Page,"Navigate to pachinko machine solution, access application categories, select reference designs, view designs, and verify the home page.","Step 1: Navigate to */*
+Step 2: Click on link applicationCategories (DesignDevelopment)
+Step 3: Click on link applicationCategories (Applications)
+Step 4: Click on link ReferenceDesigns -> Navigate to page 'index#*/index.html'
+Step 5: Select option with input value from select Combobox
+Step 6: Select option with input value from select Combobox2
+Step 7: Click on button View152Designs
+Step 8: Click on link Applications -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Medium,NEW
+7,Access Automotive Communications and Verify Home Page,"Navigate to applications overview, select automotive communications, and verify the home page.","Step 1: Navigate to applications/*/overview.html
+Step 2: Click on list AutomotiveCommunications
+Step 3: Click on list AutomotiveCommunications -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",Medium,NEW
+9,Navigate through Multiple Pages and Verify Home Page,"Access flight control unit solution, navigate through various categories, and verify the home page.","Step 1: Navigate to */*
+Step 2: Click on header PageHeader
+Step 3: Click on link AerospaceDefense
+Step 4: Click on link Applications
+Step 5: Click on link PowerDelivery -> Navigate to page 'application overview#applications/*/*/overview.html'
+Step 6: Click on ti searchField (SearchField3)
+Step 7: Enter input value in ti searchField (SearchField4)
+Step 8: Click on link ProfessionalAudioAmplifier3 -> Navigate to page 'professional audio amplifier solution#*/*'
+Step 9: Click on main PageMain
+Step 10: Click on main PageMain
+Step 11: Click on main PageMain
+Step 12: Click on div ProductsReferenceDesigns
+Step 13: Click on div ProductsReferenceDesigns
+Step 14: Click on main PageMain
+Step 15: Click on main PageMain
+Step 16: Click on main PageMain
+Step 17: Click on main PageMain
+Step 18: Click on div HomeApplications
+Step 19: Click on ti Breadcrumb
+Step 20: Click on div pageContent (PageContent)
+Step 21: Click on link applicationCategories (Applications)
+Step 22: Click on link applicationCategories (Applications2)
+Step 23: Click on div pageContent (PageContent2)
+Step 24: Click on div pageContent (PageContent2)
+Step 25: Click on div pageContent (PageContent2) -> Navigate to page ''
+Step 26: Take full page screenshot as checkpoint
+",Medium,NEW
+8,Search for Professional Audio Amplifier and Verify Home Page,"Navigate to applications, select aerospace defense, search for a specific amplifier, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on link Applications
+Step 3: Click on link AerospaceDefense -> Navigate to page 'application overview#applications/*/*/overview.html'
+Step 4: Click on div CollapsibleItemTrigger
+Step 5: Click on link Applications2
+Step 6: Click on link ProAudioVideo3 -> Navigate to page 'application overview#applications/*/overview.html'
+Step 7: Click on ti searchField (SearchField)
+Step 8: Enter input value in ti searchField (SearchField2)
+Step 9: Click on link ProfessionalAudioAmplifier2
+Step 10: Click on link applicationCategories (Applications) -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Low,NEW
+11,Verify Error Page after Browsing Industrial Applications,"Navigate to industrial applications, browse applications, and verify the error page.","Step 1: Navigate to /
+Step 2: Click on link Applications
+Step 3: Click on link Industrial2 -> Navigate to page 'application overview#applications/*/overview.html'
+Step 4: Click on link BrowseApplications
+Step 5: Click on div EnhancedAutomation
+Step 6: Click on link ProAudioVideo2
+Step 7: Click on link ProAudioVideo2
+Step 8: Click on div EnhancedAutomation
+Step 9: Click on div EnhancedAutomation
+Step 10: Click on div EnhancedAutomation
+Step 11: Click on link BrowseApplications -> Navigate to page 'error#staging/error404.htm'
+Step 12: Take full page screenshot as checkpoint
+",Low,NEW
+4,Navigate to Professional Audio Amplifier Solution and Verify Page,"Access applications, select pro audio video, navigate to motor drives, search for a specific amplifier solution, and verify the page.","Step 1: Navigate to /
+Step 2: Click on link ProAudioVideo -> Navigate to page 'application overview#applications/*/overview.html'
+Step 3: Click on link MotorDrives -> Navigate to page '/'
+Step 4: Click on link Applications
+Step 5: Click on link ProAudioVideo -> Navigate to page 'application overview#applications/*/overview.html'
+Step 6: Click on ti searchField (SearchField)
+Step 7: Enter input value in ti searchField (SearchField2)
+Step 8: Click on link ProfessionalAudioAmplifier -> Navigate to page 'professional audio amplifier solution#*/*'
+Step 9: Take full page screenshot as checkpoint
+",Trivial,NEW
+6,Navigate through Industry Categories and Verify Home Page,"Access pachinko machine solution, navigate through industry categories multiple times, and verify the home page.","Step 1: Navigate to */*
+Step 2: Click on link industryCategories (ProAudioVideo)
+Step 3: Click on link industryCategories (ProAudioVideo)
+Step 4: Click on header PageHeader
+Step 5: Click on header PageHeader
+Step 6: Click on header PageHeader
+Step 7: Click on header PageHeader
+Step 8: Click on header PageHeader
+Step 9: Click on header PageHeader
+Step 10: Click on header PageHeader
+Step 11: Click on div PageContent
+Step 12: Click on header PageHeader
+Step 13: Click on link industryCategories (ProAudioVideo)
+Step 14: Click on link industryCategories (Industrial)
+Step 15: Click on header PageHeader
+Step 16: Click on header PageHeader
+Step 17: Click on link industryCategories (ProAudioVideo) -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Trivial,NEW
+10,Explore Industrial Engineering Applications and Verify Home Page,"Navigate to applications overview, explore industrial engineering, and verify the home page.","Step 1: Navigate to applications/*/overview.html
+Step 2: Click on div IndustrialEngineering
+Step 3: Click on link applicationCategories (Applications)
+Step 4: Click on div FlexContainer
+Step 5: Click on body marketLevelPage2
+Step 6: Click on body marketLevelPage2
+Step 7: Click on body marketLevelPage2
+Step 8: Click on section MainSection
+Step 9: Click on div ApplicationHeader
+Step 10: Click on div ApplicationHeader
+Step 11: Click on div ApplicationHeader
+Step 12: Click on div ApplicationHeader
+Step 13: Click on div ApplicationHeader
+Step 14: Click on div ApplicationHeader
+Step 15: Click on div ApplicationHeader
+Step 16: Click on div ApplicationHeader
+Step 17: Click on div IndustrialEngineering
+Step 18: Click on section MainSection
+Step 19: Click on div IndustrialEngineering
+Step 20: Click on div IndustrialEngineering
+Step 21: Click on div IndustrialEngineering
+Step 22: Click on div CategoriesListing
+Step 23: Click on body marketLevelPage2
+Step 24: Click on link applicationCategories (Applications)
+Step 25: Click on link applicationCategories (Products)
+Step 26: Click on link applicationCategories (DesignDevelopment)
+Step 27: Click on list DesignSimulationTools
+Step 28: Click on link ReferenceDesigns -> Navigate to page 'index#*/index.html'
+Step 29: Click on atomic HeaderSearchBox
+Step 30: Enter input value in atomic HeaderSearchBox -> Navigate to page 'site search#sitesearch/*/*/*'
+Step 31: Click on atomic CategoryFacet
+Step 32: Click on atomic CategoryFacet
+Step 33: Click on main MainContent
+Step 34: Click on atomic CategoryFacet -> Navigate to page ''
+Step 35: Take full page screenshot as checkpoint
+",Trivial,NEW

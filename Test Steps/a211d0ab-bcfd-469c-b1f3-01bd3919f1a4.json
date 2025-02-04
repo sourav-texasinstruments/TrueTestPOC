@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to */*",
+        "step 2: Click on link industryCategories (ProAudioVideo)",
+        "step 3: Click on link industryCategories (ProAudioVideo)",
+        "step 4: Click on header PageHeader",
+        "step 5: Click on header PageHeader",
+        "step 6: Click on header PageHeader",
+        "step 7: Click on header PageHeader",
+        "step 8: Click on header PageHeader",
+        "step 9: Click on header PageHeader",
+        "step 10: Click on header PageHeader",
+        "step 11: Click on div PageContent",
+        "step 12: Click on header PageHeader",
+        "step 13: Click on link industryCategories (ProAudioVideo)",
+        "step 14: Click on link industryCategories (Industrial)",
+        "step 15: Click on header PageHeader",
+        "step 16: Click on header PageHeader",
+        "step 17: Click on link industryCategories (ProAudioVideo) -> Navigate to page ''",
+        "step 18: Take full page screenshot as checkpoint"
+    ]
+}

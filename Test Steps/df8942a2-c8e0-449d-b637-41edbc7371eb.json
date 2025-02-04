@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link Applications -> Navigate to page 'application overview#applications/*/overview.html'",
+        "step 3: Click on link ProAudioVideo2",
+        "step 4: Click on atomic HeaderSearchBox",
+        "step 5: Enter input value in atomic HeaderSearchBox -> Navigate to page 'professional audio mixer solution#*/*'",
+        "step 6: Click on div EncoderKnobs -> Navigate to page ''",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

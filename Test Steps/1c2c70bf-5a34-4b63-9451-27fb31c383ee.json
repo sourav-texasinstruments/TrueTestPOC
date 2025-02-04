@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link Applications",
+        "step 3: Click on link AerospaceDefense -> Navigate to page 'application overview#applications/*/*/overview.html'",
+        "step 4: Click on div CollapsibleItemTrigger",
+        "step 5: Click on link Applications2",
+        "step 6: Click on link ProAudioVideo3 -> Navigate to page 'application overview#applications/*/overview.html'",
+        "step 7: Click on ti searchField (SearchField)",
+        "step 8: Enter input value in ti searchField (SearchField2)",
+        "step 9: Click on link ProfessionalAudioAmplifier2",
+        "step 10: Click on link applicationCategories (Applications) -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
