@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Interact with objects on the home page and input data.",
+        "step 3: Click on ti object2",
+        "step 4: Click on atomic searchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'",
+        "step 5: Click on ti object -> Navigate to page 'product detail#product/*/part-details/*'",
+        "step 6: Click on ti object",
+        "step 7: Click on link checkout -> Navigate to page 'store#store/*/*'",
+        "step 8: Enter input value in ti object",
+        "step 9: Click on ti object2",
+        "step 10: Click on ti object2 -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

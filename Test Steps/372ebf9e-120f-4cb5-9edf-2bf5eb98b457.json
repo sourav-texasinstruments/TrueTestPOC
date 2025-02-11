@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on ti object",
+        "step 3: Click on ti object2",
+        "step 4: Click on ti object2",
+        "step 5: Enter input value in ti object2",
+        "step 6: Click on link myCart",
+        "step 7: Click on link viewCart",
+        "step 8: Login again after canceling the checkout process.",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

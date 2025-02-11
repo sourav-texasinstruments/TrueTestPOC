@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on ti object",
+        "step 3: Click on ti object",
+        "step 4: Click on ti object",
+        "step 5: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'",
+        "step 6: Click on link addresses -> Navigate to page 'internal resource#checkoutprofile/web/*'",
+        "step 7: Click on div noSavedAddresses -> Navigate to page ''",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}

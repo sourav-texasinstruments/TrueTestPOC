@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to product/*",
+        "step 2: Click on link OrderNow",
+        "step 3: Click on ti OrderNowTable",
+        "step 4: Click on main MainContent",
+        "step 5: Click on main MainContent",
+        "step 6: Click on ti OrderNowTable",
+        "step 7: Click on ti OrderNowTable",
+        "step 8: Click on ti OrderNowTable",
+        "step 9: Click on atomic HeaderSearchBox",
+        "step 10: Enter input value in atomic HeaderSearchBox -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on body home",
+        "step 3: Click on atomic searchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'",
+        "step 4: Click on ti object -> Navigate to page 'product#product/*'",
+        "step 5: Click on link OrderNow",
+        "step 6: Click on ti OrderNowTable",
+        "step 7: Click on ti OrderNowTable",
+        "step 8: Enter input value in ti OrderNowTable",
+        "step 9: Click on link checkout",
+        "step 10: Login and input details using tiObject3.",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

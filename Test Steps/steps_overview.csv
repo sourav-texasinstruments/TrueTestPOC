@@ -1,179 +1,2371 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Navigate to Industrial Applications Overview and Verify Page,"Access the home page, navigate to applications, select industrial applications, browse, and verify the overview page.","Step 1: Navigate to /
-Step 2: Click on link Applications
-Step 3: Click on link Industrial -> Navigate to page 'application overview#applications/*/overview.html'
-Step 4: Click on link BrowseApplications
-Step 5: Click on body marketLevelPage -> Navigate to page 'application overview#applications/*/*/overview.html'
-Step 6: Take full page screenshot as checkpoint
+1,Navigate and Finalize Checkout Process with Multiple Selections,"Navigate through home and internal resources, select multiple items, and finalize the checkout process.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on atomic searchBox
+Step 4: Click on atomic searchBox
+Step 5: Enter input value in atomic searchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 6: Click on ti object
+Step 7: Enter input value in ti object
+Step 8: Click on link checkout -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 9: Click on ti cartOrderDetails (object) -> Navigate to page 'checkout#store/*/checkout'
+Step 10: Click on ti object
+Step 11: Click on ti object
+Step 12: Click on ti object
+Step 13: Click on ti object2
+Step 14: Click on ti object2
+Step 15: Click on ti object3
+Step 16: Click on ti object3
+Step 17: Enter input value in ti object3
+Step 18: Click on ti object4 -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 19: Click on ti cartOrderDetails (object2) -> Navigate to page 'checkout#store/*/checkout'
+Step 20: Click on ti object
+Step 21: Click on ti object
+Step 22: Click on ti object
+Step 23: Click on ti object4 -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 24: Click on ti object3
+Step 25: Click on ti object3
+Step 26: Enter input value in ti object3
+Step 27: Click on ti cartOrderDetails (object4) -> Navigate to page 'checkout#store/*/checkout'
+Step 28: Click on ti object5
+Step 29: Click on ti object5
+Step 30: Click on ti dynamicObject (object6)
+Step 31: Access checkout tax details and finalize selections.
+	- Step 1: Click on ti object5
+	- Step 2: Click on ti CheckoutTax
+	- Step 3: Click on ti object
+	- Step 4: Click on ti object
+	- Step 5: Click on ti object
+	- Step 6: Click on ti object
+	- Step 7: Click on ti object
+Step 32: Click on ti object
+Step 33: Click on ti object
+Step 34: Click on ti object2
+Step 35: Click on ti object2
+Step 36: Click on ti object3
+Step 37: Click on ti object3 -> Navigate to page 'order confirmation#store/*/order-confirmation/*'
+Step 38: Click on ti object
+Step 39: Enter input value in ti object
+Step 40: Click on ti object2
+Step 41: Click on main orderConfirmation -> Navigate to page ''
+Step 42: Take full page screenshot as checkpoint
 ",High,NEW
-2,Access Pro Audio Video Application Categories and Verify Page,"Navigate to applications overview, select application categories, choose pro audio video, and verify the application overview.","Step 1: Navigate to applications/*/overview.html
-Step 2: Click on link applicationCategories (Applications)
-Step 3: Click on link ProAudioVideo
-Step 4: Take full page screenshot as checkpoint
-",High,NEW
-12,Access Design Development Messages and Verify Home Page,"Navigate to design simulation tools, access key customer messages, and verify the home page.","Step 1: Navigate to */*
-Step 2: Click on div KeyCustomerMessages
-Step 3: Click on link DesignDevelopment
-Step 4: Click on div PageContent
-Step 5: Click on div KeyCustomerMessages
-Step 6: Click on header SimplifyDesignProcess
-Step 7: Click on header SimplifyDesignProcess -> Navigate to page ''
-Step 8: Take full page screenshot as checkpoint
-",High,NEW
-13,Search for Industrial Applications and Verify Home Page,"Navigate to pachinko machine solution, select industrial applications, and verify the home page.","Step 1: Navigate to */*
-Step 2: Click on header PageHeader
-Step 3: Click on link Industrial2 -> Navigate to page 'application overview#applications/*/overview.html'
-Step 4: Click on ti searchField (SearchField) -> Navigate to page ''
-Step 5: Take full page screenshot as checkpoint
-",High,NEW
-14,Login and Access List Manager from Dashboard,"Login to the application, access the list manager, and verify the home page.","Step 1: Navigate to /
-Step 2: Click on ti Login
-Step 3: Click on ti Login
-Step 4: Click on ti Login
-Step 5: Click on div InternetExplorerWarning
-Step 6: Click on ti Login
-Step 7: Click on ti Login -> Navigate to page 'dashboard#myti-dashboard/*/*'
-Step 8: Click on link ListManager -> Navigate to page 'list manager#list-manager/*'
-Step 9: Click on link MaddysList -> Navigate to page ''
+32,Checkout Process with Avl Orderable Items,"Navigate to home, select items, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Click on body home
+Step 3: Click on link crossReferenceSearch -> Navigate to page 'internal tool#cross-reference-search'
+Step 4: Click on ti object
+Step 5: Enter input value in ti object -> Navigate to page 'internal resource#cross-reference-search/*'
+Step 6: Click on ti avlOrderableFilterableTable
+Step 7: Click on ti avlOrderableFilterableTable
+Step 8: Click on link checkout2
+Step 9: Login and input details using tiObject3.
+	- Step 1: Click on ti object3
+	- Step 2: Click on ti object3
+	- Step 3: Enter input value in ti object3
+	- Step 4: Click on ti Login
+	- Step 5: Click on ti Login
 Step 10: Take full page screenshot as checkpoint
 ",High,NEW
-3,Search for Professional Audio Mixer Solution and Verify Home Page,"Navigate to applications, select pro audio video, search for a specific solution, and verify the home page.","Step 1: Navigate to /
-Step 2: Click on link Applications -> Navigate to page 'application overview#applications/*/overview.html'
-Step 3: Click on link ProAudioVideo2
-Step 4: Click on atomic HeaderSearchBox
-Step 5: Enter input value in atomic HeaderSearchBox -> Navigate to page 'professional audio mixer solution#*/*'
-Step 6: Click on div EncoderKnobs -> Navigate to page ''
+34,Add to Cart and Checkout Process,"Navigate to home, add items to cart, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Click on body home
+Step 3: Click on atomic searchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 4: Click on ti object -> Navigate to page 'product detail#product/*/part-details/*'
+Step 5: Click on span logInToOrder
+Step 6: Enter input value in ti addToCart
+Step 7: Click on link checkout2
+Step 8: Login and input details using tiObject3.
+	- Step 1: Click on ti object3
+	- Step 2: Click on ti object3
+	- Step 3: Enter input value in ti object3
+	- Step 4: Click on ti Login
+	- Step 5: Click on ti Login
+Step 9: Take full page screenshot as checkpoint
+",High,NEW
+36,Explore Power Management Pages and Verify Home Page,"Navigate to home, explore power management pages, and verify the home page.","Step 1: Navigate to */*
+Step 2: Click on link otherSuppliers
+Step 3: Click on link exploreAll -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+37,Manage Checkout Profile Information,"Navigate to home, manage checkout profile information, and verify the internal resource.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object -> Navigate to page 'checkout management#checkoutprofile/web/*/add'
+Step 5: Click on ti checkoutProfileInformation
+Step 6: Click on ti checkoutProfileInformation
+Step 7: Enter input value in ti checkoutProfileInformation
+Step 8: Click on ti checkoutProfileAddress
+Step 9: Click on ti checkoutProfileAddress
+Step 10: Click on ti checkoutProfileAddress
+Step 11: Click on ti checkoutProfileAddress
+Step 12: Click on ti checkoutProfileAddress
+Step 13: Click on ti checkoutProfileTax
+Step 14: Click on ti checkoutProfileTax
+Step 15: Click on ti checkoutProfileTax
+Step 16: Click on ti checkoutProfileRegulation
+Step 17: Click on ti checkoutProfileRegulation
+Step 18: Click on ti checkoutProfileRegulation
+Step 19: Click on ti checkoutProfileRegulation
+Step 20: Click on ti checkoutProfileRegulation
+Step 21: Click on ti checkoutProfileRegulation
+Step 22: Click on ti checkoutProfileRegulation
+Step 23: Click on ti checkoutProfileShippingMethods
+Step 24: Click on ti checkoutProfileShippingMethods
+Step 25: Click on ti checkoutProfilePayment
+Step 26: Click on ti checkoutProfilePayment
+Step 27: Click on ti checkoutProfilePayment
+Step 28: Click on ti checkoutProfilePayment
+Step 29: Click on ti checkoutProfilePayment
+Step 30: Click on link save -> Navigate to page 'internal resource#checkoutprofile/web/*'
+Step 31: Take full page screenshot as checkpoint
+",High,NEW
+40,Manage Ecommerce Cart and Continue Shopping,"Navigate to home, manage ecommerce cart, and continue shopping.","Step 1: Navigate to product/*
+Step 2: Click on ti object
+Step 3: Click on link myCart
+Step 4: Click on link viewCart -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 5: Click on div footerContent
+Step 6: Click on p paragraph
+Step 7: Click on div footerContent
+Step 8: Click on p paragraph
+Step 9: Click on div footerContent2
+Step 10: Click on div footerContent2
+Step 11: Click on div customReelsWarning
+Step 12: Click on div customReelsWarning
+Step 13: Click on div customReelsWarning
+Step 14: Click on div customReelsWarning
+Step 15: Click on ti storeCartGroup
+Step 16: Enter input value in ti ecommerceCart
+Step 17: Click on ti storeCartGroup
+Step 18: Enter input value in ti ecommerceCart
+Step 19: Click on atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 20: Click on ti gpnSnapshot -> Navigate to page 'product#product/*'
+Step 21: Click on ti OrderNowTable
+Step 22: Click on ti OrderNowTable
+Step 23: Enter input value in ti OrderNowTable
+Step 24: Click on ti errorDialog
+Step 25: Click on ti OrderNowTable
+Step 26: Enter input value in ti OrderNowTable
+Step 27: Click on ti errorDialog
+Step 28: Click on ti OrderNowTable
+Step 29: Click on ti OrderNowTable
+Step 30: Click on ti OrderNowTable
+Step 31: Enter input value in ti OrderNowTable
+Step 32: Click on ti errorDialog
+Step 33: Click on ti OrderNowTable
+Step 34: Enter input value in ti OrderNowTable
+Step 35: Click on ti addedToCartDialog
+Step 36: Click on ti OrderNowTable
+Step 37: Enter input value in ti OrderNowTable
+Step 38: Click on ti continueShopping
+Step 39: Click on ti OrderNowTable
+Step 40: Enter input value in ti OrderNowTable
+Step 41: Click on ti continueShopping
+Step 42: Click on ti OrderNowTable
+Step 43: Enter input value in ti OrderNowTable
+Step 44: Click on ti continueShopping
+Step 45: Click on ti OrderNowTable
+Step 46: Enter input value in ti OrderNowTable
+Step 47: Click on ti continueShopping
+Step 48: Click on ti OrderNowTable
+Step 49: Enter input value in ti OrderNowTable
+Step 50: Click on ti continueShopping
+Step 51: Click on ti OrderNowTable
+Step 52: Enter input value in ti OrderNowTable
+Step 53: Click on ti continueShopping
+Step 54: Click on ti OrderNowTable
+Step 55: Enter input value in ti OrderNowTable
+Step 56: Click on ti continueShopping
+Step 57: Click on ti OrderNowTable
+Step 58: Enter input value in ti OrderNowTable
+Step 59: Click on ti errorDialog
+Step 60: Click on ti OrderNowTable
+Step 61: Enter input value in ti OrderNowTable
+Step 62: Click on ti continueShopping
+Step 63: Click on ti OrderNowTable
+Step 64: Enter input value in ti OrderNowTable
+Step 65: Click on ti continueShopping
+Step 66: Click on ti OrderNowTable
+Step 67: Click on ti OrderNowTable
+Step 68: Enter input value in ti OrderNowTable
+Step 69: Click on ti continueShopping
+Step 70: Click on ti OrderNowTable
+Step 71: Click on ti OrderNowTable
+Step 72: Enter input value in ti OrderNowTable
+Step 73: Click on ti OrderNowTable
+Step 74: Enter input value in ti OrderNowTable
+Step 75: Click on ti continueShopping
+Step 76: Click on ti OrderNowTable
+Step 77: Enter input value in ti OrderNowTable
+Step 78: Click on ti continueShopping
+Step 79: Click on ti OrderNowTable
+Step 80: Enter input value in ti OrderNowTable
+Step 81: Click on body product
+Step 82: Click on ti continueShopping -> Navigate to page ''
+Step 83: Take full page screenshot as checkpoint
+",High,NEW
+41,Manage Shopping Cart and Checkout Process,"Navigate to the eCommerce cart, interact with store cart groups, view order details, and verify checkout completion.","Step 1: Navigate to store/*/cart
+Step 2: Click on ti storeCartGroup
+Step 3: Enter input value in ti storeCartGroup
+Step 4: Click on ti storeCartGroup
+Step 5: Enter input value in ti storeCartGroup
+Step 6: Click on ti checkoutDialogLauncher
+Step 7: Click on link myCart
+Step 8: Click on link viewCart
+Step 9: Click on ti storeCartGroup
+Step 10: Click on ti storeCartGroup
+Step 11: Enter input value in ti storeCartGroup
+Step 12: Click on ti storeCartGroup
+Step 13: Enter input value in ti storeCartGroup
+Step 14: Click on ti checkoutDialogLauncher
+Step 15: Click on ti storeCartGroup
+Step 16: Click on ti storeCartGroup
+Step 17: Enter input value in ti storeCartGroup
+Step 18: Click on header cart
+Step 19: Click on header cart
+Step 20: Click on header cart
+Step 21: Click on header cart
+Step 22: Click on header cart
+Step 23: Click on header cart
+Step 24: Click on header cart
+Step 25: Click on header cart
+Step 26: Click on header cart
+Step 27: Click on header cart
+Step 28: Click on header cart
+Step 29: Click on header cart
+Step 30: Click on div orderNumber
+Step 31: Click on ti cartOrderDetails (cartOrderDetails)
+Step 32: Click on ti cartOrderDetails (cartOrderDetails)
+Step 33: Click on header cart
+Step 34: Click on header cart
+Step 35: Click on header cart
+Step 36: Click on header cart
+Step 37: Click on header cart
+Step 38: Click on header cart
+Step 39: Click on header cart
+Step 40: Click on header cart
+Step 41: Click on ti cartShoppingCart
+Step 42: Click on header cart
+Step 43: Click on header cart
+Step 44: Click on header cart
+Step 45: Click on header cart
+Step 46: Click on header cart
+Step 47: Click on header cart
+Step 48: Click on header cart
+Step 49: Click on header cart
+Step 50: Click on header cart
+Step 51: Click on header cart
+Step 52: Click on header cart
+Step 53: Click on header cart
+Step 54: Click on ti cartWrapper
+Step 55: Click on header cart
+Step 56: Click on header cart
+Step 57: Click on header cart
+Step 58: Click on header cart
+Step 59: Click on header cart
+Step 60: Click on header cart
+Step 61: Click on ti storeCartGroup
+Step 62: Click on header cart
+Step 63: Click on header cart
+Step 64: Click on header cart
+Step 65: Click on header cart
+Step 66: Click on header cart
+Step 67: Click on header cart
+Step 68: Click on div customReelsWarning
+Step 69: Click on ti cartOrderDetails (cartOrderDetails2)
+Step 70: Click on ti cartOrderDetails (cartOrderDetails2)
+Step 71: Click on ti cartOrderDetails (cartOrderDetails2)
+Step 72: Click on div customReelsWarning
+Step 73: Click on ti cartOrderDetails (cartOrderDetails2)
+Step 74: Click on div customReelsWarning
+Step 75: Click on div customReelsWarning
+Step 76: Click on nav menu
+Step 77: Click on ti cartOrderDetails (cartOrderDetails)
+Step 78: Click on ti storeCartGroup
+Step 79: Enter input value in ti storeCartGroup
+Step 80: Click on ti storeCartGroup
+Step 81: Enter input value in ti storeCartGroup
+Step 82: Enter input value in ti storeCartGroup
+Step 83: Click on ti storeCartGroup
+Step 84: Enter input value in ti storeCartGroup
+Step 85: Click on ti storeCartGroup
+Step 86: Enter input value in ti storeCartGroup
+Step 87: Click on ti checkoutDialogLauncher
+Step 88: Click on ti storeCartGroup
+Step 89: Enter input value in ti storeCartGroup
+Step 90: Enter input value in ti storeCartGroup
+Step 91: Click on ti checkoutDialogLauncher
+Step 92: Click on div orderNumber
+Step 93: Click on div orderNumber
+Step 94: Click on div orderNumber
+Step 95: Click on ti cartOrderDetails (cartOrderSummary)
+Step 96: Click on ti cartOrderDetails (cartOrderSummary)
+Step 97: Click on div orderNumber
+Step 98: Click on div orderNumber
+Step 99: Click on ti cartOrderDetails (cartOrderSummary)
+Step 100: Click on ti cartOrderDetails (cartOrderSummary)
+Step 101: Click on div orderNumber
+Step 102: Click on ti cartOrderDetails (cartOrderSummary)
+Step 103: Click on div orderNumber
+Step 104: Click on div orderNumber
+Step 105: Click on div orderNumber
+Step 106: Click on ti cartOrderDetails (cartOrderSummary)
+Step 107: Click on ti cartOrderDetails (cartOrderSummary)
+Step 108: Click on header cart
+Step 109: Click on ti cartWrapper
+Step 110: Click on ti cartOrderDetails (cartOrderSummary)
+Step 111: Click on header cart
+Step 112: Click on header cart
+Step 113: Click on div orderNumber
+Step 114: Click on div orderNumber
+Step 115: Click on div orderNumber
+Step 116: Click on ti cartOrderDetails (cartOrderSummary)
+Step 117: Click on div orderNumber
+Step 118: Click on div orderNumber
+Step 119: Click on div orderNumber
+Step 120: Click on ti cartOrderDetails (cartOrderSummary) -> Navigate to page ''
+Step 121: Take full page screenshot as checkpoint
+",High,NEW
+2,Interact with Home Page and Checkout Process,"Navigate to home, interact with objects, and complete the checkout process for selected items.","Step 1: Navigate to /
+Step 2: Interact with objects on the home page and input data.
+	- Step 1: Click on body home
+	- Step 2: Click on ti object
+	- Step 3: Click on ti object2
+	- Step 4: Click on ti object2
+	- Step 5: Enter input value in ti object2
+Step 3: Click on ti object2
+Step 4: Click on atomic searchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 5: Click on ti object -> Navigate to page 'product detail#product/*/part-details/*'
+Step 6: Click on ti object
+Step 7: Click on link checkout -> Navigate to page 'store#store/*/*'
+Step 8: Enter input value in ti object
+Step 9: Click on ti object2
+Step 10: Click on ti object2 -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+46,Wireless Connectivity Product Navigation,Navigate through wireless connectivity categories and verify access to product details and information.,"Step 1: Navigate to /
+Step 2: Click on link resourceCategories (designDevelopment)
+Step 3: Click on link wirelessConnectivity -> Navigate to page 'wireless connectivity automotive#*/*/*/*'
+Step 4: Click on ti tabContainer
+Step 5: Click on ti tabContainer2
+Step 6: Click on ti tabContainer3
+Step 7: Click on ti tabContainer4
+Step 8: Click on ti tabContainer5
+Step 9: Click on ti tabContainer6
+Step 10: Click on ti tabContainer7 -> Navigate to page 'wireless connectivity low power 2 4 ghz#*/*/*/*'
+Step 11: Click on ti tabContainers (tabContainer)
+Step 12: Click on ti tabContainers (tabContainer2)
+Step 13: Click on ti tabContainers (tabContainer3)
+Step 14: Click on ti tabContainers (tabContainer4)
+Step 15: Click on ti tabContainers (tabContainerSimplifyDesign)
+Step 16: Click on ti tabContainers (tabContainerSimplifyDesign2)
+Step 17: Click on ti tabContainerJumpstartEvaluation
+Step 18: Click on ti tabContainerJumpstartEvaluation2
+Step 19: Click on ti tabContainerJumpstartEvaluation3
+Step 20: Click on ti tabContainerJumpstartEvaluation4
+Step 21: Click on ti tabContainers (tabContainerSimplifyDesign)
+Step 22: Click on ti tabContainers (tabContainerSimplifyDesign2)
+Step 23: Click on ti tabContainerJumpstartEvaluation
+Step 24: Click on ti tabContainerJumpstartEvaluation2
+Step 25: Click on ti tabContainerJumpstartEvaluation3
+Step 26: Click on ti tabContainers (tabContainer3)
+Step 27: Click on ti tabContainers (tabContainer4)
+Step 28: Click on ti tabContainers (tabContainer)
+Step 29: Click on ti tabContainers (tabContainer2)
+Step 30: Click on ti tabContainers (tabContainer5)
+Step 31: Click on ti tabContainers (tabContainer2)
+Step 32: Click on ti tabContainers (tabContainer3)
+Step 33: Click on ti tabContainers (tabContainer4)
+Step 34: Click on ti tabContainers (tabContainerSimplifyDesign)
+Step 35: Click on ti tabContainers (tabContainerSimplifyDesign2)
+Step 36: Click on ti tabContainerJumpstartEvaluation
+Step 37: Click on ti tabContainerJumpstartEvaluation2
+Step 38: Click on ti tabContainerJumpstartEvaluation3 -> Navigate to page 'wireless connectivity automotive#*/*/*/*'
+Step 39: Click on ti tabContainer2
+Step 40: Click on ti tabContainer
+Step 41: Click on ti tabContainer3
+Step 42: Click on ti tabContainer4
+Step 43: Click on ti tabContainer5 -> Navigate to page ''
+Step 44: Take full page screenshot as checkpoint
+",High,NEW
+57,Amplifier Product Access and Verification,"Navigate to amplifier categories, view products, and verify the product details page.","Step 1: Navigate to /
+Step 2: Click on link resourceCategories (Products)
+Step 3: Click on link Amplifiers -> Navigate to page 'internal resource#*/overview.html'
+Step 4: Click on link ViewAllProducts -> Navigate to page 'internal resource#*/products.html'
+Step 5: Click on div object
+Step 6: Click on ti object9
+Step 7: Click on div Description -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+59,Wireless Infrastructure Product Access,"Navigate to wireless infrastructure products, verify access, and manage product information.","Step 1: Navigate to */overview.html
+Step 2: Click on div object2
+Step 3: Click on div object3
+Step 4: Click on div object4
+Step 5: Click on ti object10
+Step 6: Click on ti object10
+Step 7: Click on ti object10
+Step 8: Click on ti object10
+Step 9: Click on ti object10
+Step 10: Click on ti object10
+Step 11: Click on ti object10
+Step 12: Click on ti object10
+Step 13: Click on button WirelessInfrastructure
+Step 14: Click on ti object11 -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",High,NEW
+60,Partner Resource Navigation and Verification,Access partner resources and verify information through various links and resources.,"Step 1: Navigate to partner/*
+Step 2: Click on main object2
+Step 3: Click on link object
+Step 4: Click on main object2
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+61,Internal Tool Navigation and Verification,"Navigate through internal tools, verify actions, and manage tool snapshots.","Step 1: Navigate to tool/*
+Step 2: Click on span Z3DM368MOD
+Step 3: Click on ti dynamicObject (object2)
+Step 4: Click on ti dynamicObject (object3)
+Step 5: Click on ti dynamicObject (object2)
+Step 6: Click on link VisitPartnerSite -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+64,Media Content Video Playback,"Navigate to media content, play and pause videos, and verify transitions to the home page.","Step 1: Navigate to video/*
+Step 2: Click on ti Container
+Step 3: Click on button PlayVideo
+Step 4: Click on button Pause -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+66,Tool Version Management and Verification,"Navigate through tools, manage versions, and verify access to the home page.","Step 1: Navigate to tool/*
+Step 2: Click on span Download
+Step 3: Click on link ViewAllVersions3 -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+69,Personal Account Management and Verification,"Manage personal accounts, verify role selections, and navigate through the home page.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on header ResponsiveHeader
+Step 5: Click on ti object
+Step 6: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 7: Click on div PersonalAccount
+Step 8: Click on link PersonalInformation -> Navigate to page 'internal documentation#myti/docs/updateprofile'
+Step 9: Select option with input value from select Role -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+70,Registration and Verification Process,"Register through the application, verify account details, and navigate back to the home page.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 4: Click on ti BannerCarousel -> Navigate to page 'ordering resources page#*/*'
+Step 5: Click on link RegisterNow -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+71,Tool Package Management and Verification,"Manage tool packages, verify actions, and navigate through internal resources.","Step 1: Navigate to tool/*
+Step 2: Click on ti ViewPackage
+Step 3: Click on header MSP FET
+Step 4: Click on main mainContent2
+Step 5: Click on div OrderStartDevelopment
+Step 6: Click on ti Close
+Step 7: Click on atomic headerSearchBox
+Step 8: Enter input value in atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 9: Click on ti toolSnapshot -> Navigate to page 'internal tool#tool/*'
+Step 10: Click on link MSP GANG
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+73,Logout and Home Page Verification,"Logout from the application, navigate back to the home page, and verify page transitions.","Step 1: Navigate to myti/*/logout
+Step 2: Click on body Resource
+Step 3: Click on link Home -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+79,Checkout Profile Management and Verification,"Manage checkout profiles, verify information, and navigate through internal resources.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 4: Click on link checkoutProfiles2 -> Navigate to page '/'
+Step 5: Click on ti object
+Step 6: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 7: Click on link checkoutProfiles2 -> Navigate to page 'checkout profile edit#checkoutprofile/web/*/edit/*'
+Step 8: Click on div checkoutProfile (CheckoutProfileInformation)
+Step 9: Click on ti CheckoutProfileInformation
+Step 10: Click on ti checkoutProfileAddress
+Step 11: Click on ti taxDetails
+Step 12: Click on ti regulationDetails
+Step 13: Click on ti regulationDetails
+Step 14: Click on ti UploadFileDialog -> Navigate to page 'internal resource#checkoutprofile/web/*'
+Step 15: Take full page screenshot as checkpoint
+",High,NEW
+80,Sample Order and Cart Management,"Manage sample orders, verify cart details, and navigate back to the home page.","Step 1: Navigate to /
+Step 2: Interact with objects on the home page and input data.
+	- Step 1: Click on body home
+	- Step 2: Click on ti object
+	- Step 3: Click on ti object2
+	- Step 4: Click on ti object2
+	- Step 5: Enter input value in ti object2
+Step 3: Click on ti object2
+Step 4: Click on link MyCart
+Step 5: Click on ti SamplesButton
+Step 6: Click on link ViewCart -> Navigate to page 'store#store/*/*'
+Step 7: Click on ti object2
+Step 8: Click on ti object2 -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",High,NEW
+81,Manage Ecommerce Cart and Verify Home Page Navigation,"Navigate to the home page, interact with objects, manage items in the cart, and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Interact with objects on the home page and input data.
+	- Step 1: Click on body home
+	- Step 2: Click on ti object
+	- Step 3: Click on ti object2
+	- Step 4: Click on ti object2
+	- Step 5: Enter input value in ti object2
+Step 3: Manage items in the ecommerce cart and navigate to product details.
+	- Step 1: Click on ti object2 -> Navigate to page 'ecommerce cart#store/*/cart'
+	- Step 2: Click on ti storeCartGroup
+	- Step 3: Click on ti CartRemoveFooter
+	- Step 4: Click on atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+	- Step 5: Click on ti object -> Navigate to page 'product detail#product/*/part-details/*'
+	- Step 6: Click on ti object
+Step 4: Click on ti ContinueShopping
+Step 5: Click on link MyCart
+Step 6: Click on ti SamplesButton
+Step 7: Click on link ViewCart -> Navigate to page 'store#store/*/*'
+Step 8: Click on ti object2
+Step 9: Click on ti object2 -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+82,Checkout Flow Management and Home Page Verification,"Navigate to the home page, manage items in the cart, proceed to checkout, and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Interact with objects on the home page and input data.
+	- Step 1: Click on body home
+	- Step 2: Click on ti object
+	- Step 3: Click on ti object2
+	- Step 4: Click on ti object2
+	- Step 5: Enter input value in ti object2
+Step 3: Manage items in the ecommerce cart and navigate to product details.
+	- Step 1: Click on ti object2 -> Navigate to page 'ecommerce cart#store/*/cart'
+	- Step 2: Click on ti storeCartGroup
+	- Step 3: Click on ti CartRemoveFooter
+	- Step 4: Click on atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+	- Step 5: Click on ti object -> Navigate to page 'product detail#product/*/part-details/*'
+	- Step 6: Click on ti object
+Step 4: Click on link checkout -> Navigate to page 'store#store/*/*'
+Step 5: Click on link MyCart
+Step 6: Click on ti SamplesButton
+Step 7: Click on ti object2
+Step 8: Click on ti object2 -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",High,NEW
+33,Order Now Process and Checkout with Product,"Navigate to home, order a product, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Click on body home
+Step 3: Click on atomic searchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 4: Click on ti object -> Navigate to page 'product#product/*'
+Step 5: Click on link OrderNow
+Step 6: Click on ti OrderNowTable
+Step 7: Click on ti OrderNowTable
+Step 8: Enter input value in ti OrderNowTable
+Step 9: Click on link checkout
+Step 10: Login and input details using tiObject3.
+	- Step 1: Click on ti object3
+	- Step 2: Click on ti object3
+	- Step 3: Enter input value in ti object3
+	- Step 4: Click on ti Login
+	- Step 5: Click on ti Login
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+85,Checkout Process from Dashboard with Home Page Verification,"Access dashboard documentation, view cart, and verify navigation after completing checkout process.","Step 1: Navigate to myti-dashboard/docs/mytidashboard
+Step 2: Click on link MyCart
+Step 3: Click on link ViewCart -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 4: Click on ti cartOrderDetails (CartOrderDetails) -> Navigate to page 'checkout#store/*/checkout'
+Step 5: Click on ti CheckoutTax
+Step 6: Click on ti checkoutProfileList
+Step 7: Click on ti checkoutProfileList
+Step 8: Click on ti checkoutProfileList
+Step 9: Click on ti checkoutProfileList
+Step 10: Click on ti CheckoutTax
+Step 11: Click on ti object
+Step 12: Click on ti object
+Step 13: Click on div CheckoutWrapper -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
+",High,NEW
+8,Access Product Documentation and File Management,"Navigate to product page, access internal documentation, and manage files.","Step 1: Navigate to product/*
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object
+Step 5: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 6: Click on link documentsAndFiles -> Navigate to page 'file management#*'
+Step 7: Click on div documentsFiles -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+14,Explore Resource and Product Categories,"Navigate to home, explore resource and product categories, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on link resourceCategories (Applications)
+Step 3: Click on link productCategories (BodyElectronicsLighting) -> Navigate to page 'overview#*/*/*/overview.html'
+Step 4: Click on ti TabContainer
+Step 5: Click on ti TabContainer2 -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+10,Perform Cross Reference Search and Verify Home Page,"Navigate to home, perform a cross-reference search, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on body home
+Step 3: Click on link crossReferenceSearch -> Navigate to page 'internal tool#cross-reference-search'
+Step 4: Click on ti object
+Step 5: Enter input value in ti object -> Navigate to page 'internal resource#cross-reference-search/*'
+Step 6: Click on ti object3 -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+20,Create New List from Internal Documentation,"Navigate to home, create a new list, and verify the home page.","Step 1: Navigate to /
+Step 2: Access internal documentation from the home page.
+	- Step 1: Click on body home
+	- Step 2: Click on ti object
+	- Step 3: Click on ti object
+	- Step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+	- Step 5: Click on link ListManager2
+Step 3: Click on link newList (NewList) -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+9,Access Internal Documentation and Navigate Back Home,"Navigate to home, access internal documentation, and return to the home page.","Step 1: Navigate to /
+Step 2: Access internal documentation from the home page.
+	- Step 1: Click on body home
+	- Step 2: Click on ti object
+	- Step 3: Click on ti object
+	- Step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+	- Step 5: Click on link ListManager2
+Step 3: Enter input value in ti object
+Step 4: Click on ti object2
+Step 5: Click on ti object3
+Step 6: Click on ti object4
+Step 7: Click on ti object4 -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+12,Explore Team Information and Internal Documentation,"Navigate to home, explore team information, and access internal documentation.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 5: Click on link yourTeam2 -> Navigate to page 'internal documentation#myti/docs/*'
+Step 6: Click on div object
+Step 7: Click on body internalDocumentation
+Step 8: Click on ti object8
+Step 9: Click on ti object8 -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+17,Order Now Process and Verify Home Page,"Navigate to product page, initiate order now process, and verify the home page.","Step 1: Navigate to product/*
+Step 2: Click on link OrderNow
+Step 3: Click on ti OrderNowTable
+Step 4: Click on main MainContent
+Step 5: Click on main MainContent
+Step 6: Click on ti OrderNowTable
+Step 7: Click on ti OrderNowTable
+Step 8: Click on ti OrderNowTable
+Step 9: Click on atomic HeaderSearchBox
+Step 10: Enter input value in atomic HeaderSearchBox -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+23,Review Order History and Verify Home Page,"Navigate to order history, review details, and verify the home page.","Step 1: Navigate to orderhistory/order/*
+Step 2: Click on div TotalAmount
+Step 3: Click on span OrderDetail
+Step 4: Click on link orderDetails (ViewProformaInvoice) -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+24,Explore Events and Verify Home Page,"Navigate to events, explore tabs, and verify the home page.","Step 1: Navigate to about-ti/*/*
+Step 2: Click on body EventsBasePage
+Step 3: Click on ti TabContainer
+Step 4: Click on ti TabContainer2
+Step 5: Click on link learnMore (LearnMoreWiFi)
+Step 6: Click on ti tabContainers (TabContainer3)
+Step 7: Click on ti tabContainers (TabContainer4)
+Step 8: Click on button PlayVideo
+Step 9: Click on button Pause
+Step 10: Click on div StoryWithTabs
+Step 11: Click on body EventsBasePage2
+Step 12: Click on ti TabContainer5
+Step 13: Click on ti TabContainer6
+Step 14: Click on ti TabContainer5
+Step 15: Click on ti TabContainer6 -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",High,NEW
+5,Manage Cart and Checkout Process After Cancellation,"Navigate to home, manage cart, and re-login to complete the checkout process after cancellation.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object2
+Step 4: Click on ti object2
+Step 5: Enter input value in ti object2
+Step 6: Click on link myCart
+Step 7: Click on link viewCart
+Step 8: Login again after canceling the checkout process.
+	- Step 1: Click on ti cartOrderDetails -> Navigate to page 'checkout#store/*/checkout'
+	- Step 2: Click on div shippingBillingAddress
+	- Step 3: Click on ti object5
+	- Step 4: Click on ti checkoutDialogCancel
+	- Step 5: Click on ti login
+	- Step 6: Click on ti login
+Step 9: Take full page screenshot as checkpoint
+",High,NEW
+4,Explore Resource Categories and Documentation,"Navigate to home, explore resource categories, and access internal documentation.","Step 1: Navigate to /
+Step 2: Click on link resourceCategories (orderingResources)
+Step 3: Click on ti object
+Step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 5: Click on ti object
+Step 6: Click on ti object2
+Step 7: Click on main internalDocumentation (internalDocumentation) -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+3,Access Internal Documentation and Select Backlog Items,"Navigate to home, access internal documentation, and select multiple items from the backlog report.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Navigate to backlog report and select multiple items.
+	- Step 1: Click on link BacklogReport3 -> Navigate to page 'project management#*'
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+11,Access Internal Resource and Check Saved Addresses,"Navigate to home, access internal documentation, and check for saved addresses.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object
+Step 5: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 6: Click on link addresses -> Navigate to page 'internal resource#checkoutprofile/web/*'
+Step 7: Click on div noSavedAddresses -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+65,Automotive Resource Access and Verification,"Navigate to automotive categories, verify information, and manage access to internal documentation.","Step 1: Navigate to /
+Step 2: Click on link resourceCategories (Applications)
+Step 3: Click on link Automotive -> Navigate to page 'internal resource#*/*/overview.html'
+Step 4: Click on ti object13
+Step 5: Click on ti object13 -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 6: Click on link yourTeam2 -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",Medium,NEW
-5,View Designs in Reference Designs and Verify Home Page,"Navigate to pachinko machine solution, access application categories, select reference designs, view designs, and verify the home page.","Step 1: Navigate to */*
-Step 2: Click on link applicationCategories (DesignDevelopment)
-Step 3: Click on link applicationCategories (Applications)
-Step 4: Click on link ReferenceDesigns -> Navigate to page 'index#*/index.html'
-Step 5: Select option with input value from select Combobox
-Step 6: Select option with input value from select Combobox2
-Step 7: Click on button View152Designs
-Step 8: Click on link Applications -> Navigate to page ''
+13,Review Order History and Verify Home Page,"Navigate to home, review order history, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 5: Click on link orderHistory -> Navigate to page 'internal resource#orderhistory'
+Step 6: Click on ti object4
+Step 7: Click on div ordersPlaced
+Step 8: Click on ti object5
+Step 9: Click on ti object5
+Step 10: Click on ti object6
+Step 11: Click on ti Continue
+Step 12: Click on ti object5
+Step 13: Click on div ordersPlaced
+Step 14: Click on div ResponsiveHeader
+Step 15: Click on ti object5
+Step 16: Click on ti object5 -> Navigate to page ''
+Step 17: Take full page screenshot as checkpoint
+",Medium,NEW
+15,Edit Company Information and Verify Changes,"Navigate to home, edit company information, and verify the changes.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 4: Click on link CompanyInformation -> Navigate to page 'internal document edit#myti/docs/*/edit/*'
+Step 5: Click on div EditCompanyAccount
+Step 6: Click on ti Login
+Step 7: Click on ti Login
+Step 8: Click on ti Login
+Step 9: Click on ti dynamicObject (RadioButton)
+Step 10: Click on ti Continue
+Step 11: Take full page screenshot as checkpoint
+",Medium,NEW
+27,Search and Manage Tools from Internal Resource,"Navigate to home, search for tools, and manage tool actions.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 4: Click on atomic headerSearchBox
+Step 5: Enter input value in atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 6: Click on atomic resultList -> Navigate to page 'internal tool#tool/*'
+Step 7: Click on link toolActions (orderNow)
+Step 8: Click on atomic headerSearchBox
+Step 9: Enter input value in atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 10: Click on ti toolSnapshot -> Navigate to page 'internal tool#tool/*'
+Step 11: Click on item downloadLatestCCSID -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
+",Medium,NEW
+26,Manage Documents and Files from Internal Documentation,"Navigate to home, manage documents and files, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 5: Click on link documentsAndFiles -> Navigate to page 'file management#*'
+Step 6: Click on ti TabContainer
+Step 7: Click on input RowSelectionCheckbox
+Step 8: Click on ti DownloadButton
+Step 9: Click on ti searchField -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+51,Checkout Process and Order Confirmation,"Manage checkout profiles, view cart details, and verify order confirmations throughout the checkout process.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on atomic searchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 4: Click on ti object
+Step 5: Enter input value in ti object
+Step 6: Click on link checkout -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 7: Click on ti cartOrderDetails (StoreCartOrderDetails) -> Navigate to page 'checkout#store/*/checkout'
+Step 8: Click on ti checkoutProfileList
+Step 9: Click on ti object2
+Step 10: Click on ti object2
+Step 11: Click on ti object2
+Step 12: Click on ti object4
+Step 13: Enter input value in ti object4
+Step 14: Click on ti object3 -> Navigate to page 'order confirmation#store/*/order-confirmation/*'
+Step 15: Click on atomic HeaderSearchBox
+Step 16: Click on ti Login
+Step 17: Click on atomic HeaderSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 18: Click on ti object
+Step 19: Enter input value in ti object
+Step 20: Click on link Continue
+Step 21: Click on link checkout -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 22: Click on ti cartOrderDetails (StoreCartOrderDetails2) -> Navigate to page 'checkout#store/*/checkout'
+Step 23: Click on ti login
+Step 24: Click on ti login -> Navigate to page ''
+Step 25: Take full page screenshot as checkpoint
+",Medium,NEW
+7,Finalize Dynamic Selections and Backlog Report,"Navigate to home, finalize dynamic selections, and select multiple items from the backlog report.","Step 1: Navigate to /
+Step 2: Continue with dynamic selections and finalize the process.
+	- Step 1: Click on ti object
+	- Step 2: Click on ti dynamicObject
+	- Step 3: Click on ti Continue
+	- Step 4: Click on ti object
+	- Step 5: Click on ti object
+Step 3: Navigate to backlog report and select multiple items.
+	- Step 1: Click on link BacklogReport3 -> Navigate to page 'project management#*'
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+Step 4: Click on div projectManagement
+Step 5: Click on div projectManagement
+Step 6: Select items multiple times again in the application.
+	- Step 1: Click on ti select
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+	- Step 6: Click on ti select
+	- Step 7: Click on ti select
+	- Step 8: Click on ti select
+Step 7: Take full page screenshot as checkpoint
+",Medium,NEW
+77,Advanced Audio Product Access and Verification,"Navigate to advanced audio products, verify information, and manage access to internal resources.","Step 1: Navigate to */*/*/*/overview.html
+Step 2: Click on header EnablingAdvancedAudio
+Step 3: Click on div object5
+Step 4: Click on div TransformAutomotiveAudio
+Step 5: Click on item ProcessingPower
+Step 6: Click on list ProcessingPower
+Step 7: Click on link armProcessorSelection (SelectArmCortexMCU)
+Step 8: Click on link armProcessorSelection (SelectArmProcessor)
+Step 9: Click on div SelectArmProducts
+Step 10: Click on div PremiumAutomotiveAudio
+Step 11: Click on div object5
+Step 12: Click on div object5 -> Navigate to page ''
+Step 13: Take full page screenshot as checkpoint
+",Medium,NEW
+6,Access Company Accounts and Internal Documentation,"Navigate to home, access company accounts, and explore internal documentation.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 4: Click on link companyAccounts -> Navigate to page 'internal documentation#myti/docs/companyhierarchy'
+Step 5: Click on ti object3 -> Navigate to page 'internal documentation#myti/docs/*/add'
+Step 6: Click on ti object4
+Step 7: Click on ti object4
+Step 8: Click on ti object4
+Step 9: Click on ti object4
+Step 10: Click on div eucText
+Step 11: Click on ti object4
+Step 12: Click on ti object4
+Step 13: Click on ti object4
+Step 14: Click on ti object4
+Step 15: Click on ti object4
+Step 16: Click on ti object4
+Step 17: Click on ti object4
+Step 18: Click on ti object4
+Step 19: Click on div firmInfo
+Step 20: Click on ti object4
+Step 21: Click on ti object4
+Step 22: Click on ti object4
+Step 23: Click on ti object4
+Step 24: Click on ti object5
+Step 25: Click on ti object6
+Step 26: Click on ti object4
+Step 27: Click on ti object4
+Step 28: Click on ti object4
+Step 29: Click on ti object4
+Step 30: Click on ti object4
+Step 31: Click on ti object4
+Step 32: Click on ti object4
+Step 33: Click on ti object4
+Step 34: Click on ti object4
+Step 35: Click on ti object4
+Step 36: Click on ti object4
+Step 37: Click on ti object4 -> Navigate to page '/'
+Step 38: Click on ti object
+Step 39: Click on ti object2
+Step 40: Click on ti object2
+Step 41: Click on ti object2
+Step 42: Click on ti object2 -> Navigate to page 'internal resource#*/homepage.html'
+Step 43: Click on ti object2
+Step 44: Click on ti object2 -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 45: Click on ti object7
+Step 46: Click on link documentationLinks (yourTeam)
+Step 47: Take full page screenshot as checkpoint
+",Medium,NEW
+83,Search and Checkout Process with Home Page Verification,"Navigate to the home page, perform a search, manage items in the cart, and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Interact with objects on the home page and input data.
+	- Step 1: Click on body home
+	- Step 2: Click on ti object
+	- Step 3: Click on ti object2
+	- Step 4: Click on ti object2
+	- Step 5: Enter input value in ti object2
+Step 3: Click on ti object2
+Step 4: Click on atomic searchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 5: Enter input value in ti object
+Step 6: Click on link checkout -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 7: Click on atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 8: Click on ti object -> Navigate to page 'product detail#product/*/part-details/*'
+Step 9: Click on ti object
+Step 10: Click on link checkout -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 11: Click on ti Login
+Step 12: Click on ti Login -> Navigate to page ''
+Step 13: Take full page screenshot as checkpoint
+",Medium,NEW
+84,Access Internal Documentation and Verify Home Page,"Navigate to the home page, access internal documentation, and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 4: Click on link BacklogReport2 -> Navigate to page 'project management#*'
+Step 5: Click on link MyTIDashboard -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 6: Click on link DocumentAndFiles -> Navigate to page 'file management#*'
+Step 7: Click on ti TabContainer
+Step 8: Click on ti TabContainer2 -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",Medium,NEW
-7,Access Automotive Communications and Verify Home Page,"Navigate to applications overview, select automotive communications, and verify the home page.","Step 1: Navigate to applications/*/overview.html
-Step 2: Click on list AutomotiveCommunications
-Step 3: Click on list AutomotiveCommunications -> Navigate to page ''
-Step 4: Take full page screenshot as checkpoint
+52,Cart Management and Checkout Process,"Access the cart, manage items, and verify checkout transitions while interacting with the application.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object -> Navigate to page 'internal resource#orderhistory'
+Step 5: Click on ti object5
+Step 6: Click on ti object5 -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 7: Click on link documentationLinks (backlogReport) -> Navigate to page 'project management#*'
+Step 8: Click on ti select
+Step 9: Click on ti select
+Step 10: Click on link MyCart
+Step 11: Click on link ViewCart -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 12: Click on ti storeCartGroup
+Step 13: Click on ti storeCartGroup
+Step 14: Enter input value in ti storeCartGroup
+Step 15: Click on div ItemPackage
+Step 16: Click on ti storeCartGroup
+Step 17: Click on ti storeCartGroup
+Step 18: Click on ti cartOrderDetails (StoreCartOrderDetails3) -> Navigate to page 'checkout#store/*/checkout'
+Step 19: Take full page screenshot as checkpoint
 ",Medium,NEW
-9,Navigate through Multiple Pages and Verify Home Page,"Access flight control unit solution, navigate through various categories, and verify the home page.","Step 1: Navigate to */*
-Step 2: Click on header PageHeader
-Step 3: Click on link AerospaceDefense
-Step 4: Click on link Applications
-Step 5: Click on link PowerDelivery -> Navigate to page 'application overview#applications/*/*/overview.html'
-Step 6: Click on ti searchField (SearchField3)
-Step 7: Enter input value in ti searchField (SearchField4)
-Step 8: Click on link ProfessionalAudioAmplifier3 -> Navigate to page 'professional audio amplifier solution#*/*'
-Step 9: Click on main PageMain
-Step 10: Click on main PageMain
-Step 11: Click on main PageMain
-Step 12: Click on div ProductsReferenceDesigns
-Step 13: Click on div ProductsReferenceDesigns
-Step 14: Click on main PageMain
-Step 15: Click on main PageMain
-Step 16: Click on main PageMain
-Step 17: Click on main PageMain
-Step 18: Click on div HomeApplications
-Step 19: Click on ti Breadcrumb
-Step 20: Click on div pageContent (PageContent)
-Step 21: Click on link applicationCategories (Applications)
-Step 22: Click on link applicationCategories (Applications2)
-Step 23: Click on div pageContent (PageContent2)
-Step 24: Click on div pageContent (PageContent2)
-Step 25: Click on div pageContent (PageContent2) -> Navigate to page ''
-Step 26: Take full page screenshot as checkpoint
-",Medium,NEW
-8,Search for Professional Audio Amplifier and Verify Home Page,"Navigate to applications, select aerospace defense, search for a specific amplifier, and verify the home page.","Step 1: Navigate to /
-Step 2: Click on link Applications
-Step 3: Click on link AerospaceDefense -> Navigate to page 'application overview#applications/*/*/overview.html'
-Step 4: Click on div CollapsibleItemTrigger
-Step 5: Click on link Applications2
-Step 6: Click on link ProAudioVideo3 -> Navigate to page 'application overview#applications/*/overview.html'
-Step 7: Click on ti searchField (SearchField)
-Step 8: Enter input value in ti searchField (SearchField2)
-Step 9: Click on link ProfessionalAudioAmplifier2
-Step 10: Click on link applicationCategories (Applications) -> Navigate to page ''
+56,Application Links Navigation and Verification,Navigate through application links and verify access to internal resources and documentation.,"Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 4: Click on main internalDocumentation (object)
+Step 5: Click on link Applications
+Step 6: Click on link AdvancedDriverAssistanceSystems -> Navigate to page 'internal resource#*/applicationslist.tsp'
+Step 7: Click on link applicationLinks (Applications)
+Step 8: Click on link applicationLinks (QualityAndReliability)
+Step 9: Click on item object
+Step 10: Click on link MaterialContentSearch -> Navigate to page 'internal resource#materialcontent/home'
 Step 11: Take full page screenshot as checkpoint
+",Medium,NEW
+19,Perform Atomic Search and Verify Home Page,"Navigate to home, perform atomic search, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on atomic searchBox
+Step 3: Enter input value in atomic searchBox
+Step 4: Click on atomic searchBox
+Step 5: Click on atomic searchBox
+Step 6: Click on atomic searchBox
+Step 7: Click on atomic searchBox
+Step 8: Enter input value in atomic searchBox
+Step 9: Click on atomic searchBox
+Step 10: Click on atomic searchBox
+Step 11: Enter input value in atomic searchBox
+Step 12: Click on atomic searchBox
+Step 13: Click on link Search
+Step 14: Click on item searchClose (SearchClose)
+Step 15: Click on item searchClose (SearchClose) -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",Medium,NEW
+31,Interact with Dashboard and Verify Home Page,"Navigate to home, interact with dashboard elements, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on ti object -> Navigate to page 'internal dashboard#cvd/dashboard'
+Step 3: Click on ti tabContainer
+Step 4: Click on ti tabActions (searchInTab)
+Step 5: Click on ti dialogActions (closeDialog)
+Step 6: Click on ti tabActions (editInTab)
+Step 7: Click on textarea summaryInput
+Step 8: Click on ti dialogActions (cancelDialog)
+Step 9: Click on link openInNew
+Step 10: Click on ti tabContainer2
+Step 11: Click on span dynamicObject (description)
+Step 12: Click on span dynamicObject (notificationId)
+Step 13: Click on ti tabContainer
+Step 14: Click on ti tabContainer2
+Step 15: Click on ti tabContainer -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",Medium,NEW
+22,Access Usage Statistics and Verify Home Page,"Navigate to home, access usage statistics, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 4: Click on span CompletionDate
+Step 5: Click on span CompletionDate
+Step 6: Click on span CompletionDate
+Step 7: Click on span CompletionDate
+Step 8: Click on div UsageStatistics
+Step 9: Click on span CurrencySymbol
+Step 10: Click on span CurrencySymbol
+Step 11: Click on tbody OrderRecentTable
+Step 12: Click on div accountInfo (OfficeAccountInfo)
+Step 13: Click on link OrderLink
+Step 14: Click on link documentationLinks (TicketView) -> Navigate to page 'internal resource#tisloc/web/*/*/*'
+Step 15: Click on ti InvoiceCard
+Step 16: Click on ti InvoiceCard -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 17: Click on link BacklogReport -> Navigate to page 'project management#*'
+Step 18: Click on main HomeDashboard -> Navigate to page ''
+Step 19: Take full page screenshot as checkpoint
+",Medium,NEW
+21,Manage Secure Resources and Verify Internal Documentation,"Navigate to secure resources, manage notifications, and verify internal documentation.","Step 1: Navigate to secureresources
+Step 2: Click on ti DesignToolButton -> Navigate to page 'internal resource#secureresources/*'
+Step 3: Click on ti AlarmNotifications
+Step 4: Click on link Subscribe
+Step 5: Click on ti object7
+Step 6: Click on ti object7 -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 7: Click on link SecureResources -> Navigate to page 'internal resource#secureresources'
+Step 8: Click on ti DesignToolButton -> Navigate to page 'internal resource#secureresources/*'
+Step 9: Click on ti AlarmNotifications
+Step 10: Click on ti NotificationsTesting -> Navigate to page 'internal resource#secureresources'
+Step 11: Click on ti DesignToolButton -> Navigate to page 'internal resource#secureresources/*'
+Step 12: Take full page screenshot as checkpoint
+",Medium,NEW
+38,Checkout Process with Store Address Form,"Navigate to home, manage cart, and complete checkout process with store address.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on link myCart
+Step 4: Click on link viewCart
+Step 5: Click on link viewCart -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 6: Click on ti cartOrderDetails (object5) -> Navigate to page 'checkout#store/*/checkout'
+Step 7: Click on ti object5
+Step 8: Click on ti storeCheckoutAddressForm
+Step 9: Enter input value in ti storeCheckoutAddressForm
+Step 10: Click on ti storeCheckoutDialogLauncher
+Step 11: Click on ti object5
+Step 12: Click on ti login
+Step 13: Click on ti login -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
+",Medium,NEW
+67,Product Lifecycle Management and Verification,"Manage product lifecycle details, verify access, and navigate through internal resources.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 5: Click on link APIKeysAndAccess -> Navigate to page 'internal documentation#myti/docs/*'
+Step 6: Click on span editActions (Edit)
+Step 7: Click on ti dialogSettings (DialogAPISettings)
+Step 8: Click on ti dialogSettings (DialogAPISettings)
+Step 9: Click on main object2
+Step 10: Click on span editActions (Edit)
+Step 11: Click on ti dialogSettings (DialogAPISettings)
+Step 12: Click on span editActions (Edit)
+Step 13: Click on ti dialogSettings (DialogAPISettings)
+Step 14: Click on span editActions (Edit)
+Step 15: Click on ti dialogSettings (DialogAPISettings)
+Step 16: Click on ti keyManagement (RevokeKey)
+Step 17: Click on ti DialogAPIKeyRegenerate
+Step 18: Click on item OpenInNewAPIKey
+Step 19: Click on ti keyManagement (RegenerateKey)
+Step 20: Click on ti DialogAPIKeyRegenerate2
+Step 21: Click on span editActions (Edit2)
+Step 22: Click on ti dialogSettings (DialogInventorySubscriptionAPI)
+Step 23: Click on span editActions (Edit)
+Step 24: Click on ti dialogSettings (DialogAPISettings)
+Step 25: Click on ti object8
+Step 26: Click on ti object8
+Step 27: Click on span editActions (Edit)
+Step 28: Click on input Username
+Step 29: Enter input value in input Username
+Step 30: Click on input Password
+Step 31: Enter input value in input Password
+Step 32: Click on ti dialogSettings (DialogAPISettings)
+Step 33: Click on ti AuthenticationType
+Step 34: Select option with input value from select APIAuthenticationType
+Step 35: Click on ti dialogSettings (DialogAPISettings)
+Step 36: Click on span editActions (Edit)
+Step 37: Click on ti dialogSettings (DialogAPISettings)
+Step 38: Click on main object2
+Step 39: Click on ti object8
+Step 40: Click on ti object8 -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 41: Click on link documentationLinks (TILineOfCreditStatus) -> Navigate to page 'internal resource#tisloc/web/*/*/*'
+Step 42: Click on link myTIDashboard2 -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 43: Click on main internalDocumentation (HomeUser)
+Step 44: Click on main internalDocumentation (HomeUser)
+Step 45: Click on atomic headerSearchBox
+Step 46: Enter input value in atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 47: Click on ti gpnSnapshot -> Navigate to page 'product life cycle#*/*/*'
+Step 48: Take full page screenshot as checkpoint
 ",Low,NEW
-11,Verify Error Page after Browsing Industrial Applications,"Navigate to industrial applications, browse applications, and verify the error page.","Step 1: Navigate to /
-Step 2: Click on link Applications
-Step 3: Click on link Industrial2 -> Navigate to page 'application overview#applications/*/overview.html'
-Step 4: Click on link BrowseApplications
-Step 5: Click on div EnhancedAutomation
-Step 6: Click on link ProAudioVideo2
-Step 7: Click on link ProAudioVideo2
-Step 8: Click on div EnhancedAutomation
-Step 9: Click on div EnhancedAutomation
-Step 10: Click on div EnhancedAutomation
-Step 11: Click on link BrowseApplications -> Navigate to page 'error#staging/error404.htm'
+28,Explore Tool Download Options and Verify Home Page,"Navigate to tools, explore download options, and verify the home page.","Step 1: Navigate to tool/*
+Step 2: Click on ti supportedProductsHardware (supportedProductsHardware)
+Step 3: Click on ti supportedProductsHardwareDialog (supportedProductsHardwareDialog)
+Step 4: Click on main mainContent
+Step 5: Click on header assetItemHeading
+Step 6: Click on div lockRequiresExport
+Step 7: Click on ti stickyHeader
+Step 8: Click on span dynamicObject (assetItemHeading)
+Step 9: Click on main mainContent
+Step 10: Click on header assetItemHeading -> Navigate to page 'tool download#tool/download/*'
+Step 11: Click on link BQKEYPROGRAMMER -> Navigate to page 'internal tool#tool/*'
+Step 12: Click on ti supportedProductsHardware (supportedProductsHardware2)
+Step 13: Click on ti supportedProductsHardwareDialog (supportedProductsHardwareDialog2)
+Step 14: Click on ti supportedProductsHardware (supportedProductsHardware3)
+Step 15: Click on ti supportedProductsHardwareDialog (supportedProductsHardwareDialog3)
+Step 16: Click on ti supportedProductsHardware (supportedProductsHardware2)
+Step 17: Click on ti supportedProductsHardwareDialog (supportedProductsHardwareDialog2)
+Step 18: Click on span downloadOptions (downloadOptions)
+Step 19: Click on ti downloadOptionsCard (downloadOptionsCard)
+Step 20: Click on link viewAllVersions
+Step 21: Click on span dynamicObject (packetSniffer)
+Step 22: Click on span downloadOptions (downloadOptions2)
+Step 23: Click on link viewAllVersions2
+Step 24: Click on ti closeDownloadOptions (closeDownloadOptions)
+Step 25: Click on span downloadOptions (downloadOptions3)
+Step 26: Click on header SWRC273Heading
+Step 27: Click on ti noResultsFound -> Navigate to page ''
+Step 28: Take full page screenshot as checkpoint
+",Low,NEW
+29,Explore Development Kits and Verify Home Page,"Navigate to development pages, explore kits, and verify the home page.","Step 1: Navigate to */*
+Step 2: Click on link processorCategories (MSP430Microcontrollers) -> Navigate to page 'embedded development#*/*/*'
+Step 3: Click on ti developmentKits (launchPadDevelopmentKits)
+Step 4: Click on ti developmentKits (launchPadDevelopmentKits)
+Step 5: Click on ti developmentKits (boosterPackModules)
+Step 6: Click on ti developmentKits (boosterPackModules)
+Step 7: Click on ti developmentKits (applicationSpecificEVMs)
+Step 8: Click on header applicationSpecificEVMs
+Step 9: Click on ti msp430WareSoftware (msp430WareSoftware)
+Step 10: Click on link learnMore
+Step 11: Click on ti msp430WareSoftware (msp430WareSoftware2)
+Step 12: Click on link learnMore2
+Step 13: Click on ti msp430WareSoftware (msp430WareSoftware)
+Step 14: Click on link learnMore2 -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",Low,NEW
+30,Manage Notifications and Verify Home Page,"Navigate to home, manage notifications, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on body home
+Step 3: Click on div internetExplorerWarning
+Step 4: Click on ti object
+Step 5: Click on div topSearch
+Step 6: Click on ti object
+Step 7: Click on atomic searchBox
+Step 8: Enter input value in atomic searchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 9: Click on ti toolSnapshot -> Navigate to page 'internal tool#tool/*'
+Step 10: Click on link hardwareDevelopment -> Navigate to page 'design development pages#*/*'
+Step 11: Click on link processorCategories (armBasedProcessors) -> Navigate to page 'embedded development#*/*/*'
+Step 12: Click on ti navbar
+Step 13: Click on ti msp430WareSoftware (starterKitEVMs)
+Step 14: Click on ti msp430WareSoftware (starterKitEVMs2)
+Step 15: Click on ti starterKitEVMs3
+Step 16: Click on ti starterKitEVMs3
+Step 17: Click on ti starterKitEVMs4
+Step 18: Click on ti msp430WareSoftware (starterKitEVMs2)
+Step 19: Click on ti starterKitEVMs3
+Step 20: Click on link expediteTimeToMarket -> Navigate to page '/'
+Step 21: Click on atomic searchBox
+Step 22: Enter input value in atomic searchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 23: Click on ti toolSnapshot
+Step 24: Click on ti toolSnapshot -> Navigate to page 'internal tool#tool/*'
+Step 25: Click on div columnLayout
+Step 26: Click on link designAndDevelopment -> Navigate to page 'internal resource#*/overview.html'
+Step 27: Click on atomic headerSearchBox
+Step 28: Enter input value in atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 29: Click on ti partMatches
+Step 30: Click on atomic headerSearchBox2
+Step 31: Click on atomic headerSearchBox2
+Step 32: Click on atomic headerSearchBox2
+Step 33: Enter input value in atomic headerSearchBox2
+Step 34: Click on ti gpnSnapshot
+Step 35: Click on atomic headerSearchBox2
+Step 36: Enter input value in atomic headerSearchBox2
+Step 37: Click on ti gpnSnapshot
+Step 38: Click on ti gpnSnapshot
+Step 39: Click on ti object8
+Step 40: Click on ti object8 -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 41: Click on link documentationLinks (notificationSettings) -> Navigate to page 'settings#notification-settings'
+Step 42: Click on link inventoryNotifications
+Step 43: Click on link productNotifications -> Navigate to page 'settings#notification-settings/product-notifications'
+Step 44: Click on ti addNotification
+Step 45: Click on ti cancelNotification
+Step 46: Click on ti addNotification
+Step 47: Click on ti cancelNotification
+Step 48: Click on ti removeNotification
+Step 49: Click on ti cancelNotification -> Navigate to page ''
+Step 50: Take full page screenshot as checkpoint
+",Low,NEW
+25,Navigate Documentation Links and Verify Home Page,"Navigate to documentation links, explore options, and verify the home page.","Step 1: Navigate to myti-dashboard/docs/mytidashboard
+Step 2: Click on link documentationLinks (BacklogReportSubscription)
+Step 3: Click on link documentationLinks (StatementOfAccount) -> Navigate to page 'internal documentation#myti-dashboard/docs/*'
+Step 4: Click on link MyTIDashboard -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 5: Click on link documentationLinks (InvoiceDelivery) -> Navigate to page 'internal documentation#myti-dashboard/docs/*'
+Step 6: Click on link MyTIDashboard -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 7: Click on div AccountTasks -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",Low,NEW
+35,Explore API Documentation and Verify Home Page,"Navigate to home, explore API documentation, and verify the home page.","Step 1: Navigate to */*/*
+Step 2: Click on link apiDeveloperPortal -> Navigate to page 'internal resource#*/overview.html'
+Step 3: Click on link backlogApiSuite -> Navigate to page 'internal documentation#swc/*/*/*/getting-started.html'
+Step 4: Click on link pushNotificationApiSetup -> Navigate to page 'internal resource#swc/*/*/*/*'
+Step 5: Click on list httpsValidSslCertificate
+Step 6: Click on list httpsValidSslCertificate
+Step 7: Click on list httpsValidSslCertificate
+Step 8: Click on item endpointDetails (endpointsInJsonFormat)
+Step 9: Click on item endpointDetails (endpointUrlAllowsExternal)
+Step 10: Click on item endpointDetails (endpointUrlAllowsExternal)
+Step 11: Click on div backlogOrderApiGetting
+Step 12: Click on button managementActions (orderManagement)
+Step 13: Click on button managementActions (reference)
+Step 14: Click on button managementActions (reference)
+Step 15: Click on link overview -> Navigate to page 'internal resource#swc/*/*/*/overview.html'
+Step 16: Click on list myTIUser
+Step 17: Click on list myTIUser
+Step 18: Click on list myTIUser
+Step 19: Click on list myTIUser -> Navigate to page ''
+Step 20: Take full page screenshot as checkpoint
+",Low,NEW
+75,Documentation and File Management Navigation,"Navigate through documentation links, manage files, and verify page transitions.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 4: Click on link checkoutProfiles2 -> Navigate to page 'internal resource#checkoutprofile/web/*'
+Step 5: Click on div CheckoutProfilesSearch
+Step 6: Click on div PageHeaderContent
+Step 7: Click on div PageHeaderContent
+Step 8: Click on div PageHeaderContent
+Step 9: Click on span storeDetails (Store)
+Step 10: Click on span storeDetails (Store)
+Step 11: Click on span storeDetails (Store)
+Step 12: Click on span storeDetails (Store)
+Step 13: Click on span storeDetails (Store)
+Step 14: Click on span storeDetails (Store)
+Step 15: Click on span storeDetails (Store)
+Step 16: Click on span storeDetails (Store)
+Step 17: Click on div StoreTable
+Step 18: Click on span storeDetails (Store2)
+Step 19: Click on link myTI Dashboard -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 20: Click on ti object
+Step 21: Click on header addressActions (CreateBacklogEligible)
+Step 22: Click on header addressActions (CreateBacklogEligible)
+Step 23: Click on header addressActions (CreateBacklogEligible)
+Step 24: Click on header addressActions (CreateBacklogEligible)
+Step 25: Click on header addressActions (CreateBacklogEligible)
+Step 26: Click on header addressActions (CreateBacklogEligible)
+Step 27: Click on div addressActions (CreateBacklogEligibleProfile)
+Step 28: Click on header addressActions (CreateBacklogEligible)
+Step 29: Click on p checkoutActions (EfficientlyCheckOut)
+Step 30: Click on div ExpansionPanelRow
+Step 31: Click on header addressActions (CreateBacklogEligible)
+Step 32: Click on div addressActions (CreateBacklogEligibleProfile)
+Step 33: Click on p taskDescriptions (TaskDescription)
+Step 34: Click on div addressActions (CreateBacklogEligibleProfile)
+Step 35: Click on header addressActions (CreateBacklogEligible)
+Step 36: Click on div ExpansionPanelRow
+Step 37: Click on p taskDescriptions (TaskDescription)
+Step 38: Click on header addressActions (CreateBacklogEligible)
+Step 39: Click on header addressActions (CreateBacklogEligible)
+Step 40: Click on ti myTIAccountTasks
+Step 41: Click on ti myTIAccountTasks
+Step 42: Click on ti myTIAccountTasks
+Step 43: Click on ti myTIAccountTasks
+Step 44: Click on link APIKeysAndAccess -> Navigate to page 'internal documentation#myti/docs/*'
+Step 45: Click on header BacklogOrderingAPI
+Step 46: Click on header BacklogOrderingAPI
+Step 47: Click on link myTI Dashboard -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 48: Click on ti myTIAccountTasks
+Step 49: Click on ti myTIAccountTasks
+Step 50: Click on ti object
+Step 51: Click on div ExpansionPanelRow
+Step 52: Click on header addressActions (CreateBacklogEligible)
+Step 53: Click on div ExpansionPanelRow
+Step 54: Click on header addressActions (CreateBacklogEligible)
+Step 55: Click on header addressActions (CreateBacklogEligible)
+Step 56: Click on header addressActions (CreateBacklogEligible)
+Step 57: Click on header addressActions (CreateBacklogEligible)
+Step 58: Click on header addressActions (CreateBacklogEligible)
+Step 59: Click on header addressActions (CreateBacklogEligible)
+Step 60: Click on div ExpansionPanelRow
+Step 61: Click on header addressActions (CreateBacklogEligible)
+Step 62: Click on div ExpansionPanelRow
+Step 63: Click on header addressActions (CreateBacklogEligible)
+Step 64: Click on header addressActions (CreateBacklogEligible)
+Step 65: Click on header addressActions (CreateBacklogEligible)
+Step 66: Click on header addressActions (CreateBacklogEligible)
+Step 67: Click on header addressActions (CreateBacklogEligible)
+Step 68: Click on header addressActions (CreateBacklogEligible)
+Step 69: Click on header addressActions (CreateBacklogEligible)
+Step 70: Click on header addressActions (CreateBacklogEligible)
+Step 71: Click on header addressActions (CreateBacklogEligible)
+Step 72: Click on header addressActions (CreateBacklogEligible)
+Step 73: Click on header addressActions (CreateBacklogEligible)
+Step 74: Click on header addressActions (CreateBacklogEligible)
+Step 75: Click on header addressActions (CreateBacklogEligible)
+Step 76: Click on header addressActions (CreateBacklogEligible)
+Step 77: Click on header addressActions (CreateBacklogEligible)
+Step 78: Click on header addressActions (CreateBacklogEligible)
+Step 79: Click on header addressActions (CreateBacklogEligible)
+Step 80: Click on div ExpansionPanelRow
+Step 81: Click on header addressActions (CreateBacklogEligible)
+Step 82: Click on header addressActions (CreateBacklogEligible)
+Step 83: Click on header addressActions (CreateBacklogEligible)
+Step 84: Click on header addressActions (CreateBacklogEligible)
+Step 85: Click on header addressActions (CreateBacklogEligible)
+Step 86: Click on div ExpansionPanelRow
+Step 87: Click on header addressActions (CreateBacklogEligible)
+Step 88: Click on header addressActions (CreateBacklogEligible)
+Step 89: Click on div ExpansionPanelRow
+Step 90: Click on header addressActions (CreateBacklogEligible)
+Step 91: Click on header addressActions (CreateBacklogEligible)
+Step 92: Click on header addressActions (CreateBacklogEligible)
+Step 93: Click on div ExpansionPanelRow
+Step 94: Click on p checkoutActions (SaveYourAddresses)
+Step 95: Click on div CreateAddressSave
+Step 96: Click on p checkoutActions (SaveYourAddresses)
+Step 97: Click on p taskDescriptions (TaskDescription2)
+Step 98: Click on p taskDescriptions (TaskDescription2)
+Step 99: Click on p checkoutActions (SaveYourAddresses)
+Step 100: Click on p checkoutActions (SaveYourAddresses)
+Step 101: Click on p checkoutActions (SaveYourAddresses)
+Step 102: Click on p checkoutActions (SaveYourAddresses)
+Step 103: Click on header addressActions (CreateAddress)
+Step 104: Click on div addressActions (CreateAddressSave2)
+Step 105: Click on p taskDescriptions (TaskDescription2)
+Step 106: Click on div addressActions (CreateAddressSave2)
+Step 107: Click on header addressActions (CreateAddress)
+Step 108: Click on div ExpansionPanelRow
+Step 109: Click on p taskDescriptions (TaskDescription2)
+Step 110: Click on div ExpansionPanelRow
+Step 111: Click on header addressActions (CreateAddress)
+Step 112: Click on div addressActions (CreateAddressSave2)
+Step 113: Click on p taskDescriptions (TaskDescription2)
+Step 114: Click on div ExpansionPanelRow
+Step 115: Click on div ExpansionPanelRow
+Step 116: Click on div addressActions (CreateAddressSave2)
+Step 117: Click on p taskDescriptions (TaskDescription2)
+Step 118: Click on div addressActions (CreateAddressSave2)
+Step 119: Click on header addressActions (CreateAddress)
+Step 120: Click on header addressActions (CreateAddress)
+Step 121: Click on div CreateAddressSave
+Step 122: Click on div CreateAddressSave
+Step 123: Click on p taskDescriptions (TaskDescription2)
+Step 124: Click on div ExpansionPanelRow
+Step 125: Click on header addressActions (CreateAddress)
+Step 126: Click on div addressActions (CreateAddressSave2)
+Step 127: Click on p taskDescriptions (TaskDescription2)
+Step 128: Click on div accountInfo (SuperAdministrator)
+Step 129: Click on header addressActions (CreateAddress)
+Step 130: Click on div addressActions (CreateAddressSave2)
+Step 131: Click on p taskDescriptions (TaskDescription2)
+Step 132: Click on div ExpansionPanelRow
+Step 133: Click on header addressActions (CreateAddress)
+Step 134: Click on div addressActions (CreateAddressSave2)
+Step 135: Click on p taskDescriptions (TaskDescription2)
+Step 136: Click on ti PercentageCompleted
+Step 137: Click on ti PercentageCompleted
+Step 138: Click on ti PercentageCompleted
+Step 139: Click on ti PercentageCompleted
+Step 140: Click on ti PercentageCompleted
+Step 141: Click on ti PercentageCompleted
+Step 142: Click on ti PercentageCompleted
+Step 143: Click on ti PercentageCompleted
+Step 144: Click on ti PercentageCompleted
+Step 145: Click on ti PercentageCompleted
+Step 146: Click on span LongText
+Step 147: Click on span LongText
+Step 148: Click on span LongText
+Step 149: Click on span LongText
+Step 150: Click on span LongText
+Step 151: Click on span LongText
+Step 152: Click on span LongText
+Step 153: Click on span LongText
+Step 154: Click on span LongText
+Step 155: Click on span LongText
+Step 156: Click on span LongText
+Step 157: Click on span LongText
+Step 158: Click on span LongText
+Step 159: Click on span LongText
+Step 160: Click on span LongText
+Step 161: Click on div TexasInstrumentsSuper
+Step 162: Click on div TexasInstrumentsSuper
+Step 163: Click on span LongText
+Step 164: Click on span LongText
+Step 165: Click on span LongText
+Step 166: Click on span LongText
+Step 167: Click on span LongText
+Step 168: Click on header TexasInstruments
+Step 169: Click on header TexasInstruments
+Step 170: Click on header TexasInstruments
+Step 171: Click on header TexasInstruments
+Step 172: Click on header TexasInstruments
+Step 173: Click on span LongText
+Step 174: Click on span LongText
+Step 175: Click on span LongText
+Step 176: Click on span LongText
+Step 177: Click on span LongText
+Step 178: Click on span LongText
+Step 179: Click on span LongText
+Step 180: Click on span LongText
+Step 181: Click on header TexasInstruments
+Step 182: Click on header TexasInstruments
+Step 183: Click on header TexasInstruments
+Step 184: Click on header TexasInstruments
+Step 185: Click on header TexasInstruments
+Step 186: Click on header TexasInstruments
+Step 187: Click on header TexasInstruments
+Step 188: Click on header TexasInstruments
+Step 189: Click on header TexasInstruments
+Step 190: Click on header TexasInstruments
+Step 191: Click on div TexasInstrumentsSuper
+Step 192: Click on span LongText
+Step 193: Click on span LongText
+Step 194: Click on span LongText
+Step 195: Click on header TexasInstruments
+Step 196: Click on div TexasInstrumentsSuper
+Step 197: Click on header TexasInstruments
+Step 198: Click on header TexasInstruments
+Step 199: Click on header TexasInstruments
+Step 200: Click on header TexasInstruments
+Step 201: Click on header TexasInstruments
+Step 202: Click on header TexasInstruments
+Step 203: Click on header TexasInstruments
+Step 204: Click on div TexasInstrumentsSuper
+Step 205: Click on header TexasInstruments
+Step 206: Click on div TexasInstrumentsSuper2
+Step 207: Click on div SuperAdministrator2
+Step 208: Click on main internalDocumentation (internalDocumentation)
+Step 209: Click on main internalDocumentation (internalDocumentation)
+Step 210: Click on link documentsAndFiles -> Navigate to page 'file management#*'
+Step 211: Click on ti TabContainer
+Step 212: Click on span TI EUCStandardTemplate
+Step 213: Click on input RowSelectionCheckbox2
+Step 214: Click on ti DownloadButton
+Step 215: Click on ti TabContainer2
+Step 216: Click on ti TabContainer
+Step 217: Click on div EUCStandardRev
+Step 218: Click on div EUCStandardRev
+Step 219: Click on div EUCStandardRevChecked -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 220: Click on main internalDocumentation (internalDocumentation) -> Navigate to page ''
+Step 221: Take full page screenshot as checkpoint
+",Low,NEW
+72,Embedded Development Resource Navigation,"Navigate to embedded development resources, verify product details, and manage access.","Step 1: Navigate to cvd/*/*
+Step 2: Click on link applicationLinks (Applications2)
+Step 3: Click on link applicationLinks (QualityAndReliability2)
+Step 4: Click on link applicationLinks (DesignAndDevelopment)
+Step 5: Click on link ArmCortexM0PlusMCUs -> Navigate to page 'embedded development#*/*/*'
+Step 6: Click on atomic HeaderSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 7: Click on ti gpnSnapshot -> Navigate to page 'product#product/*'
+Step 8: Click on ti OrderNowTable
+Step 9: Take full page screenshot as checkpoint
+",Low,NEW
+39,Select Items from Order History and Verify Home Page,"Navigate to home, select items from order history, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 5: Click on link documentationLinks (backlogReport)
+Step 6: Click on link orderHistory -> Navigate to page 'internal resource#orderhistory'
+Step 7: Click on link 25
+Step 8: Click on span companyId
+Step 9: Click on link 50 -> Navigate to page 'project management#*'
+Step 10: Click on span projectDetails (companyId)
+Step 11: Click on span projectDetails (orderNumber)
+Step 12: Click on span projectDetails (lineItemNumber)
+Step 13: Select items multiple times in the application.
+	- Step 1: Click on ti select
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+	- Step 6: Click on ti select
+Step 14: Click on main HomeDashboard
+Step 15: Select items multiple times again in the application.
+	- Step 1: Click on ti select
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+	- Step 6: Click on ti select
+	- Step 7: Click on ti select
+	- Step 8: Click on ti select
+Step 16: Click on ti select
+Step 17: Click on ti select
+Step 18: Click on div BacklogReportHeader
+Step 19: Click on button FloatingFilter
+Step 20: Click on span reportRefreshHourly -> Navigate to page 'internal resource#orderhistory'
+Step 21: Click on main homeMyTIDashboardOrder -> Navigate to page ''
+Step 22: Take full page screenshot as checkpoint
+",Low,NEW
+50,List Manager Interaction and Verification,"Navigate to the list manager, interact with items, and verify page transitions during the process.","Step 1: Navigate to */*/*
+Step 2: Click on ti listDetailsActionBar
+Step 3: Click on div listManagerItems (partNumberButton)
+Step 4: Click on div listManagerItems (partNumberButton2)
+Step 5: Click on div listManagerItems (quantityButton)
+Step 6: Click on div listManagerItems (quantityButton2)
+Step 7: Click on div listManagerItems (customerReferenceButton)
+Step 8: Click on div listManagerItems (customerReferenceButton2)
+Step 9: Click on div listManagerItems (descriptionButton)
+Step 10: Click on div listManagerItems (descriptionButton2)
+Step 11: Click on div listManagerItems (tiInventoryButton)
+Step 12: Click on div listManagerItems (tiInventoryButton2)
+Step 13: Click on div listManagerItems (TIComPrice)
+Step 14: Click on div listManagerItems (TIComPrice2)
+Step 15: Click on div listManagerItems (DataSheet)
+Step 16: Click on div listManagerItems (DataSheet2)
+Step 17: Click on div listManagerItems (PackageQtyCarrier)
+Step 18: Click on div listManagerItems (PackageQtyCarrier2)
+Step 19: Click on div listManagerItems (PackagePins)
+Step 20: Click on div listManagerItems (PackagePins2)
+Step 21: Click on div listManagerItems (OperatingTemperatureRange)
+Step 22: Click on div listManagerItems (OperatingTemperatureRange2)
+Step 23: Click on div listManagerItems (Status)
+Step 24: Click on div listManagerItems (Status2)
+Step 25: Click on div listManagerItems (ECCN)
+Step 26: Click on div listManagerItems (ECCN2)
+Step 27: Click on div listManagerItems (HTS)
+Step 28: Click on div listManagerItems (HTS2)
+Step 29: Click on div listManagerItems (ProductFamily)
+Step 30: Click on div listManagerItems (ProductFamily2)
+Step 31: Click on div listManagerItems (TIPackageGroup)
+Step 32: Click on div listManagerItems (TIPackageGroup2)
+Step 33: Click on div listManagerItems (Package)
+Step 34: Click on div listManagerItems (Package2)
+Step 35: Click on div listManagerItems (Pins)
+Step 36: Click on div listManagerItems (Pins2)
+Step 37: Click on div listManagerItems (Rating)
+Step 38: Click on div listManagerItems (Rating2)
+Step 39: Click on div listManagerItems (DateCodeEligible)
+Step 40: Click on div listManagerItems (DateCodeEligible2)
+Step 41: Click on div listManagerItems (IntroductionDate)
+Step 42: Click on div listManagerItems (IntroductionDate2)
+Step 43: Click on div listManagerItems (BoxQty)
+Step 44: Click on div listManagerItems (BoxQty2)
+Step 45: Click on div listManagerItems (MinQty)
+Step 46: Click on div listManagerItems (MinQty2)
+Step 47: Click on div listManagerItems (ICNetWeight)
+Step 48: Click on div listManagerItems (ICNetWeight2)
+Step 49: Click on div listManagerItems (Action)
+Step 50: Click on ti listDetailsActionBar
+Step 51: Click on ti listDetailsActionBar
+Step 52: Click on input PackageQtyCarrierColumn
+Step 53: Click on ti listDetailsActionBar
+Step 54: Click on ti listDetailsActionBar
+Step 55: Enter input value in ti listDetailsActionBar
+Step 56: Click on ti Login
+Step 57: Click on ti Login -> Navigate to page ''
+Step 58: Take full page screenshot as checkpoint
+",Low,NEW
+43,Checkout Profile and Order Management,"Navigate to home, manage checkout profiles, cancel dialogs, and access order details while verifying page transitions.","Step 1: Navigate to /
+Step 2: Interact with objects on the home page and input data.
+	- Step 1: Click on body home
+	- Step 2: Click on ti object
+	- Step 3: Click on ti object2
+	- Step 4: Click on ti object2
+	- Step 5: Enter input value in ti object2
+Step 3: Click on ti object2 -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 4: Click on ti cartOrderDetails (cartOrderSummary2) -> Navigate to page 'checkout#store/*/checkout'
+Step 5: Click on ti checkoutProfileList
+Step 6: Click on ti object
+Step 7: Click on ti checkoutProfileList
+Step 8: Enter input value in ti checkoutProfileList
+Step 9: Click on div shippingBillingAddress
+Step 10: Click on ti object5
+Step 11: Click on ti object5
+Step 12: Click on ti checkoutDialogCancel
+Step 13: Click on ti object5
+Step 14: Click on ti checkoutDialogCancel
+Step 15: Click on ti object5
+Step 16: Click on ti storeCheckoutAddressForm
+Step 17: Click on ti storeCheckoutAddressForm
+Step 18: Click on ti storeCheckoutAddressForm
+Step 19: Click on ti checkoutDialogCancel
+Step 20: Click on ti object5
+Step 21: Click on ti checkoutDialogCancel
+Step 22: Click on ti login
+Step 23: Click on ti login -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 24: Click on link checkoutProfiles -> Navigate to page 'internal resource#checkoutprofile/web/*'
+Step 25: Click on link editResource -> Navigate to page 'checkout profile edit#checkoutprofile/web/*/edit/*'
+Step 26: Click on div checkoutProfile (shippingBillingAddress)
+Step 27: Click on ti checkoutProfileAddress
+Step 28: Click on ti checkoutProfileAddress
+Step 29: Click on ti checkoutProfileAddress
+Step 30: Click on div editCheckoutProfile
+Step 31: Click on ti checkoutProfileAddress
+Step 32: Click on ti addressActions (addEditAddress)
+Step 33: Click on ti addressActions (addEditAddress)
+Step 34: Click on ti addressActions (addEditAddress)
+Step 35: Enter input value in ti addressActions (object)
+Step 36: Click on ti checkoutProfileAddress
+Step 37: Click on ti taxDetails
+Step 38: Click on ti regulationDetails
+Step 39: Click on ti shippingMethods
+Step 40: Click on ti paymentDetails
+Step 41: Click on link saveCheckoutProfile -> Navigate to page 'internal resource#checkoutprofile/web/*'
+Step 42: Click on link myCart
+Step 43: Click on link viewCart
+Step 44: Access checkout order details and cancel the dialog.
+	- Step 1: Click on ti cartOrderDetails -> Navigate to page 'checkout#store/*/checkout'
+	- Step 2: Click on div shippingBillingAddress
+	- Step 3: Click on ti object5
+	- Step 4: Click on ti checkoutDialogCancel
+	- Step 5: Click on ti login
+Step 45: Click on ti login -> Navigate to page 'internal resource#checkoutprofile/web/*'
+Step 46: Click on link myCart
+Step 47: Click on link viewCart -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 48: Click on ti object3
+Step 49: Click on ti object3
+Step 50: Click on ti object3
+Step 51: Click on ti object3
+Step 52: Click on ti cartOrderDetails (cartOrderSummary3) -> Navigate to page 'checkout#store/*/checkout'
+Step 53: Click on ti object4 -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 54: Click on ti object3
+Step 55: Click on ti object3
+Step 56: Click on ti object3
+Step 57: Click on ti object3
+Step 58: Login again after canceling the checkout process.
+	- Step 1: Click on ti cartOrderDetails -> Navigate to page 'checkout#store/*/checkout'
+	- Step 2: Click on div shippingBillingAddress
+	- Step 3: Click on ti object5
+	- Step 4: Click on ti checkoutDialogCancel
+	- Step 5: Click on ti login
+	- Step 6: Click on ti login
+Step 59: Take full page screenshot as checkpoint
+",Low,NEW
+18,Select Items from Backlog Report and Verify Home Page,"Navigate to home, select items from backlog report, and verify the home page.","Step 1: Navigate to *
+Step 2: Click on div BacklogReport
+Step 3: Click on div AgCenterViewport
+Step 4: Click on button FloatingFilter
+Step 5: Click on ti RangeSlider
+Step 6: Click on ti RangeSlider
+Step 7: Click on span FilterTab
+Step 8: Select items multiple times again in the application.
+	- Step 1: Click on ti select
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+	- Step 6: Click on ti select
+	- Step 7: Click on ti select
+	- Step 8: Click on ti select
+Step 9: View backlog report header and select multiple items.
+	- Step 1: Click on ti select
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on div BacklogReportHeader
+Step 10: Click on div BacklogReportHeader
+Step 11: Select items multiple times again in the application.
+	- Step 1: Click on ti select
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+	- Step 6: Click on ti select
+	- Step 7: Click on ti select
+	- Step 8: Click on ti select
+Step 12: Click on ti Login
+Step 13: Click on ti Login -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
+",Low,NEW
+58,Internal Communications and Media Resource Access,Navigate through internal communications and verify access to media resources and company information.,"Step 1: Navigate to about-ti/*/*/*/*
+Step 2: Click on div object
+Step 3: Click on section object
+Step 4: Click on link Newsroom -> Navigate to page 'internal communication#about-ti/newsroom.html'
+Step 5: Click on link AboutTI
+Step 6: Click on link ViewAllMediaResources -> Navigate to page 'internal resource#about-ti/*/media-resources.html'
+Step 7: Click on link Newsroom -> Navigate to page 'internal communication#about-ti/newsroom.html'
+Step 8: Click on link TIToWebcastCapitalManagementReview
+Step 9: Click on link ViewAllLatestCompanyBlog -> Navigate to page 'internal communication#about-ti/*/company-blog.html'
+Step 10: Click on ti object -> Navigate to page 'internal communication#about-ti/*/*/*'
+Step 11: Click on link internalCommunications (EmbracingRobotics)
+Step 12: Click on link internalCommunications (RedefiningTheCommute)
+Step 13: Click on link internalCommunications (EmbracingRobotics)
+Step 14: Click on link internalCommunications (SoftwareDefinedFuture)
+Step 15: Click on div object2 -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",Low,NEW
+45,Resource Categories and Product Overview Access,"Navigate to resource categories, access product categories, and verify the product overview page.","Step 1: Navigate to /
+Step 2: Click on link resourceCategories (Applications)
+Step 3: Click on link productCategories (advancedDriverAssistance) -> Navigate to page 'overview#*/*/*/overview.html'
+Step 4: Click on ti login
+Step 5: Click on ti login
+Step 6: Click on header responsiveHeader
+Step 7: Click on ti login
+Step 8: Click on ti login -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 9: Click on link CompanyInformation -> Navigate to page 'internal document edit#myti/docs/*/edit/*'
+Step 10: Click on link applications
+Step 11: Click on link advancedDriverAssistance -> Navigate to page 'overview#*/*/*/overview.html'
 Step 12: Take full page screenshot as checkpoint
 ",Low,NEW
-4,Navigate to Professional Audio Amplifier Solution and Verify Page,"Access applications, select pro audio video, navigate to motor drives, search for a specific amplifier solution, and verify the page.","Step 1: Navigate to /
-Step 2: Click on link ProAudioVideo -> Navigate to page 'application overview#applications/*/overview.html'
-Step 3: Click on link MotorDrives -> Navigate to page '/'
-Step 4: Click on link Applications
-Step 5: Click on link ProAudioVideo -> Navigate to page 'application overview#applications/*/overview.html'
-Step 6: Click on ti searchField (SearchField)
-Step 7: Enter input value in ti searchField (SearchField2)
-Step 8: Click on link ProfessionalAudioAmplifier -> Navigate to page 'professional audio amplifier solution#*/*'
-Step 9: Take full page screenshot as checkpoint
+78,Product Notifications Management and Verification,"Manage product notifications, verify settings, and navigate through the home page.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object
+Step 5: Click on ti object
+Step 6: Click on ti object
+Step 7: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 8: Click on link documentationLinks (notificationSettings2) -> Navigate to page 'settings#notification-settings'
+Step 9: Click on link productNotifications -> Navigate to page 'settings#notification-settings/product-notifications'
+Step 10: Click on ti Toggle
+Step 11: Click on div ProductNotifications
+Step 12: Click on ti Toggle -> Navigate to page 'settings#notification-settings'
+Step 13: Click on link inventoryNotifications
+Step 14: Click on link TIUpdates -> Navigate to page 'internal documentation#myti/docs/emailpreference'
+Step 15: Click on ti RadioYes
+Step 16: Click on div ColumnLayout
+Step 17: Click on ti RadioYes2
+Step 18: Click on ti RadioYes3
+Step 19: Click on ti RadioNo
+Step 20: Click on div SubscribeOptions -> Navigate to page 'settings#notification-settings'
+Step 21: Click on link inventoryNotifications -> Navigate to page 'settings#notification-settings/inventory-notifications'
+Step 22: Click on p InventoryNotifications
+Step 23: Click on link NotificationSettings -> Navigate to page 'settings#notification-settings'
+Step 24: Click on link MyTIDashboard
+Step 25: Click on link MyTIDashboard -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 26: Click on link documentationLinks (CompanyInformation3) -> Navigate to page 'settings#notification-settings'
+Step 27: Click on link MyTIDashboard
+Step 28: Click on link productNotifications -> Navigate to page 'settings#notification-settings/product-notifications'
+Step 29: Click on div ProductNotifications
+Step 30: Click on ti WarningCloseProduct
+Step 31: Click on ti WarningCloseProduct
+Step 32: Click on ti Toggle
+Step 33: Click on ti Toggle
+Step 34: Click on ti Toggle
+Step 35: Click on ti Toggle
+Step 36: Click on ti Toggle
+Step 37: Click on ti Toggle
+Step 38: Click on body SettingsPage -> Navigate to page ''
+Step 39: Take full page screenshot as checkpoint
 ",Trivial,NEW
-6,Navigate through Industry Categories and Verify Home Page,"Access pachinko machine solution, navigate through industry categories multiple times, and verify the home page.","Step 1: Navigate to */*
-Step 2: Click on link industryCategories (ProAudioVideo)
-Step 3: Click on link industryCategories (ProAudioVideo)
-Step 4: Click on header PageHeader
-Step 5: Click on header PageHeader
-Step 6: Click on header PageHeader
-Step 7: Click on header PageHeader
-Step 8: Click on header PageHeader
-Step 9: Click on header PageHeader
-Step 10: Click on header PageHeader
-Step 11: Click on div PageContent
-Step 12: Click on header PageHeader
-Step 13: Click on link industryCategories (ProAudioVideo)
-Step 14: Click on link industryCategories (Industrial)
-Step 15: Click on header PageHeader
-Step 16: Click on header PageHeader
-Step 17: Click on link industryCategories (ProAudioVideo) -> Navigate to page ''
-Step 18: Take full page screenshot as checkpoint
+54,Product Return Request Submission,"Navigate through the return request process, fill in necessary details, and verify the submission and return information.","Step 1: Navigate to */docs/*
+Step 2: Click on link View
+Step 3: Click on link CreateReturnRequest -> Navigate to page 'internal documentation#*/docs/createReturn.tsp'
+Step 4: Click on input OrderablePartNumber
+Step 5: Enter input value in input OrderablePartNumber
+Step 6: Click on item OPA300AID
+Step 7: Click on div ProductReturnDetails
+Step 8: Click on label TI
+Step 9: Click on input CustomerName
+Step 10: Enter input value in input CustomerName
+Step 11: Click on input CustomerCompany
+Step 12: Enter input value in input CustomerCompany
+Step 13: Click on input CustomerEmail
+Step 14: Enter input value in input CustomerEmail
+Step 15: Click on button SaveContinue
+Step 16: Select option with input value from select CountryCode
+Step 17: Click on button SaveContinue -> Navigate to page 'internal documentation#*/docs/showReturnDetails.tsp'
+Step 18: Select option with input value from select ElectricalSubType
+Step 19: Click on div ImpedanceMeasuredPin
+Step 20: Click on label ReportedIssue
+Step 21: Select option with input value from select ElectricalSubType
+Step 22: Click on label Yes
+Step 23: Click on label Fail
+Step 24: Click on label Yes2
+Step 25: Click on label Fail2
+Step 26: Click on div PageContent
+Step 27: Click on div SelectElectricalIssue
+Step 28: Select option with input value from select ElectricalSubType
+Step 29: Click on div MeasuredAgainstTI
+Step 30: Click on div ProvideDataSheet
+Step 31: Click on label VisualMechanical
+Step 32: Click on div SelectVisualType
+Step 33: Click on label Electrical
+Step 34: Click on div PageContent
+Step 35: Click on label VisualMechanical
+Step 36: Click on textarea ProvideDetailsForVisual
+Step 37: Enter input value in textarea ProvideDetailsForVisual
+Step 38: Select option with input value from select DefectPlace
+Step 39: Click on div ApplicationQuestion
+Step 40: Select option with input value from select DefectApplication
+Step 41: Click on button SaveAndContinue
+Step 42: Click on label MinorIssue
+Step 43: Click on button SaveAndContinue
+Step 44: Select option with input value from select VisualSubType
+Step 45: Click on label ProvideTIComponentLevel
+Step 46: Click on button SaveAndContinue
+Step 47: Click on label Electrical
+Step 48: Click on div PageContent
+Step 49: Click on label SelectElectricalIssue
+Step 50: Select option with input value from select ElectricalSubType
+Step 51: Click on label Yes
+Step 52: Click on label PassResult
+Step 53: Click on label NoImpedanceMeasured
+Step 54: Click on textarea ProvideDetailsForElectrical
+Step 55: Enter input value in textarea ProvideDetailsForElectrical
+Step 56: Click on button SaveAndContinue -> Navigate to page 'internal documentation#*/docs/*'
+Step 57: Click on link ReturnDetails -> Navigate to page 'internal documentation#*/docs/showReturnDetails.tsp'
+Step 58: Click on label Yes2
+Step 59: Click on label PassResultIndicated
+Step 60: Click on button SaveAndContinue -> Navigate to page 'internal documentation#*/docs/*'
+Step 61: Click on label dynamicObject (Object)
+Step 62: Click on label dynamicObject (Object2)
+Step 63: Click on label dynamicObject (Object3)
+Step 64: Click on label dynamicObject (Object4)
+Step 65: Click on label dynamicObject (Object3)
+Step 66: Click on label dynamicObject (Object5)
+Step 67: Click on label dynamicObject (Object6)
+Step 68: Click on label dynamicObject (Object5)
+Step 69: Click on label dynamicObject (Object7)
+Step 70: Click on label dynamicObject (Object8)
+Step 71: Click on label dynamicObject (Object9)
+Step 72: Click on div FailureConditions
+Step 73: Click on link myTIDashboard2
+Step 74: Click on form ProductReturnDetail
+Step 75: Click on td Object
+Step 76: Click on p Object
+Step 77: Click on p Object2
+Step 78: Click on tr Object
+Step 79: Click on p Object3
+Step 80: Click on tr Object
+Step 81: Click on td Object2
+Step 82: Click on p Object4
+Step 83: Click on tr Object2
+Step 84: Click on td Object3
+Step 85: Click on tr Object2
+Step 86: Click on p Object5
+Step 87: Click on tr Object2
+Step 88: Click on td Object4
+Step 89: Click on td Object5
+Step 90: Click on tr Object
+Step 91: Click on p Object6
+Step 92: Click on td Object6
+Step 93: Click on td Object6
+Step 94: Click on tr Object
+Step 95: Click on td Object7
+Step 96: Click on td Object7
+Step 97: Click on p Object3
+Step 98: Click on tr Object
+Step 99: Click on td Object8
+Step 100: Click on tr Object
+Step 101: Click on tr Object2
+Step 102: Click on p Object
+Step 103: Click on p Object4
+Step 104: Click on div DownloadExcel
+Step 105: Click on link Edit
+Step 106: Click on link ReturnDetails -> Navigate to page 'internal documentation#*/docs/showReturnDetails.tsp'
+Step 107: Click on button SaveAndContinue -> Navigate to page 'internal documentation#*/docs/editReturn.tsp'
+Step 108: Click on label BoardContaining
+Step 109: Click on label BoardContaining
+Step 110: Click on label BoardContaining
+Step 111: Click on label BoardContaining
+Step 112: Click on button SaveContinue2 -> Navigate to page 'internal documentation#*/docs/showReturnDetails.tsp'
+Step 113: Click on div CustomerFailureLocation
+Step 114: Click on link BasicInformation -> Navigate to page 'internal documentation#*/docs/editReturn.tsp'
+Step 115: Click on button SaveContinue2 -> Navigate to page 'internal documentation#*/docs/showReturnDetails.tsp'
+Step 116: Click on label Major
+Step 117: Click on label Critical
+Step 118: Click on label Major
+Step 119: Click on label Standard
+Step 120: Click on label TypeOfIssue
+Step 121: Click on div CustomerFailureLocation -> Navigate to page ''
+Step 122: Take full page screenshot as checkpoint
 ",Trivial,NEW
-10,Explore Industrial Engineering Applications and Verify Home Page,"Navigate to applications overview, explore industrial engineering, and verify the home page.","Step 1: Navigate to applications/*/overview.html
-Step 2: Click on div IndustrialEngineering
-Step 3: Click on link applicationCategories (Applications)
-Step 4: Click on div FlexContainer
-Step 5: Click on body marketLevelPage2
-Step 6: Click on body marketLevelPage2
-Step 7: Click on body marketLevelPage2
-Step 8: Click on section MainSection
-Step 9: Click on div ApplicationHeader
-Step 10: Click on div ApplicationHeader
-Step 11: Click on div ApplicationHeader
-Step 12: Click on div ApplicationHeader
-Step 13: Click on div ApplicationHeader
-Step 14: Click on div ApplicationHeader
-Step 15: Click on div ApplicationHeader
-Step 16: Click on div ApplicationHeader
-Step 17: Click on div IndustrialEngineering
-Step 18: Click on section MainSection
-Step 19: Click on div IndustrialEngineering
-Step 20: Click on div IndustrialEngineering
-Step 21: Click on div IndustrialEngineering
-Step 22: Click on div CategoriesListing
-Step 23: Click on body marketLevelPage2
-Step 24: Click on link applicationCategories (Applications)
-Step 25: Click on link applicationCategories (Products)
-Step 26: Click on link applicationCategories (DesignDevelopment)
-Step 27: Click on list DesignSimulationTools
-Step 28: Click on link ReferenceDesigns -> Navigate to page 'index#*/index.html'
-Step 29: Click on atomic HeaderSearchBox
-Step 30: Enter input value in atomic HeaderSearchBox -> Navigate to page 'site search#sitesearch/*/*/*'
-Step 31: Click on atomic CategoryFacet
-Step 32: Click on atomic CategoryFacet
-Step 33: Click on main MainContent
-Step 34: Click on atomic CategoryFacet -> Navigate to page ''
-Step 35: Take full page screenshot as checkpoint
+55,Dynamic Object Handling and Account Management,"Handle dynamic objects, manage account details, and verify page transitions throughout the process.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object
+Step 5: Click on ti Checkbox
+Step 6: Click on div ChangeNote
+Step 7: Handle warnings and continue with dynamic object selections.
+	- Step 1: Click on ti dynamicObject
+	- Step 2: Click on ti Continue
+	- Step 3: Click on div internetExplorerWarning
+	- Step 4: Click on ti object
+	- Step 5: Click on ti object
+	- Step 6: Click on ti dynamicObject
+	- Step 7: Click on ti Continue
+	- Step 8: Click on ti object
+	- Step 9: Click on ti object
+Step 8: Click on ti dynamicObject (RadioHONEYWELL)
+Step 9: Click on ti Continue
+Step 10: Click on ti object
+Step 11: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 12: Click on ti object2
+Step 13: Click on ti object2 -> Navigate to page 'internal documentation#myti-dashboard/docs/selectProfile'
+Step 14: Click on ti object9
+Step 15: Click on ti object9 -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 16: Click on link ChangeAccount
+Step 17: Click on link CompanyInformation2 -> Navigate to page 'internal document edit#myti/docs/*/edit/*'
+Step 18: Click on ti Login2
+Step 19: Click on div EditMyTIAccount
+Step 20: Click on ti Login2
+Step 21: Click on ti Login2
+Step 22: Click on ti dynamicObject (RadioHONEYWELL)
+Step 23: Click on ti Continue
+Step 24: Click on link Home -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 25: Click on ti object2
+Step 26: Click on ti object2
+Step 27: Click on link Home -> Navigate to page '/'
+Step 28: Click on ti object
+Step 29: Click on ti object -> Navigate to page ''
+Step 30: Take full page screenshot as checkpoint
+",Trivial,NEW
+49,User Registration and Checkout Process,"Register a new user, manage checkout details, and verify transitions through various pages in the application.","Step 1: Navigate to /
+Step 2: Click on ti object -> Navigate to page 'internal resource#myti/*/register'
+Step 3: Click on input emailInput
+Step 4: Enter input value in input emailInput
+Step 5: Enter input value in ti passwordRequirements
+Step 6: Select option with input value from select countrySelection
+Step 7: Enter input value in input reEnterPassword
+Step 8: Enter input value in input zipPostalInput
+Step 9: Click on input continueButton
+Step 10: Click on input firstNameInput
+Step 11: Enter input value in input firstNameInput
+Step 12: Enter input value in input lastNameInput
+Step 13: Select option with input value from select roleSelection
+Step 14: Select option with input value from select applicationAreaSelection
+Step 15: Enter input value in input companyNameInput
+Step 16: Click on input registerButton -> Navigate to page 'internal resource#myti/*/registerAccount'
+Step 17: Click on ti logInButton -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 18: Click on ti onboardDialog
+Step 19: Click on atomic headerSearchBox
+Step 20: Enter input value in atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 21: Click on ti gpnSnapshot
+Step 22: Click on ti gpnSnapshot
+Step 23: Enter input value in ti gpnSnapshot
+Step 24: Click on link checkout -> Navigate to page 'ecommerce cart#store/*/cart'
+Step 25: Click on ti object3
+Step 26: Click on ti object3
+Step 27: Enter input value in ti object3
+Step 28: Click on ti object3
+Step 29: Click on ti object3
+Step 30: Click on ti cartOrderDetails (cartOrderDetails3) -> Navigate to page 'checkout#store/*/checkout'
+Step 31: Click on ti object5
+Step 32: Click on ti storeCheckoutAddressForm
+Step 33: Enter input value in ti storeCheckoutAddressForm
+Step 34: Click on ti newAddressDialog
+Step 35: Enter input value in ti storeCheckoutAddressForm
+Step 36: Click on ti saveButton
+Step 37: Access checkout tax details and finalize selections.
+	- Step 1: Click on ti object5
+	- Step 2: Click on ti CheckoutTax
+	- Step 3: Click on ti object
+	- Step 4: Click on ti object
+	- Step 5: Click on ti object
+	- Step 6: Click on ti object
+	- Step 7: Click on ti object
+Step 38: Click on ti object7 -> Navigate to page 'internal documentation#myti/docs/*/add'
+Step 39: Click on link myTIDashboard -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 40: Click on ti object2
+Step 41: Click on ti object2 -> Navigate to page ''
+Step 42: Take full page screenshot as checkpoint
+",Trivial,NEW
+16,Manage Account Filters and Verify Home Page,"Navigate to home, manage account filters, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 5: Click on link orderHistory -> Navigate to page 'internal resource#orderhistory'
+Step 6: Click on ti object5
+Step 7: Click on ti object5 -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 8: Click on link ChangeAccount
+Step 9: Click on link orderHistory -> Navigate to page 'internal resource#orderhistory'
+Step 10: Select option with input value from select AccountFilter
+Step 11: Select option with input value from select AccountFilter
+Step 12: Click on ti object4
+Step 13: Click on div SelectAccount
+Step 14: Select option with input value from select AccountFilter
+Step 15: Click on ti object5
+Step 16: Click on ti object5 -> Navigate to page ''
+Step 17: Take full page screenshot as checkpoint
+",Trivial,NEW
+48,CVD Form Submission and Data Management,"Fill out the CVD form, handle dynamic selections, and submit data while verifying the internal dashboard.","Step 1: Navigate to cvd/finder-form
+Step 2: Click on ti formElementNoResults
+Step 3: Click on input autocompleteInput
+Step 4: Click on ti autocompleteNoResults
+Step 5: Click on ti formElementVersionOrRevision
+Step 6: Click on ti selectAbc
+Step 7: Click on ti impactedProductsInput
+Step 8: Enter input value in ti impactedProductsInput
+Step 9: Click on textarea summaryInput
+Step 10: Enter input value in textarea summaryInput
+Step 11: Click on label uniqueAlphanumeric
+Step 12: Click on ti addToReportButton
+Step 13: Enter input value in ti addToReportButton
+Step 14: Click on ti addToReportText
+Step 15: Click on ti formElementOpenFramework
+Step 16: Enter input value in ti formElementOpenFramework
+Step 17: Click on textarea stepsToReproduce
+Step 18: Enter input value in textarea stepsToReproduce
+Step 19: Click on div noResults
+Step 20: Click on textarea otherOrganizations
+Step 21: Enter input value in textarea otherOrganizations
+Step 22: Click on ti addFilesButton
+Step 23: Click on ti chooseFileDialog
+Step 24: Click on ti vulnerabilityQuestion
+Step 25: Click on ti radioNoOption
+Step 26: Click on ti formElementYourOrganization
+Step 27: Click on ti formElementYourOrganizationInput
+Step 28: Enter input value in ti formElementYourOrganizationInput
+Step 29: Click on ti addContactInput
+Step 30: Enter input value in ti addContactInput
+Step 31: Click on ti addContactButton
+Step 32: Click on ti selectTIResearcher
+Step 33: Click on ti radioNoOption2
+Step 34: Click on ti formElementFinderInput
+Step 35: Click on ti attachPhotoButton
+Step 36: Click on ti chooseFileDialog2
+Step 37: Click on ti submitButton -> Navigate to page 'internal dashboard#cvd/dashboard'
+Step 38: Click on ti tabContainer2
+Step 39: Click on ti tabContainer3
+Step 40: Click on ti tabContainer
+Step 41: Click on ti tabActions (editInTab)
+Step 42: Click on ti dialogActions (cancelDialog) -> Navigate to page ''
+Step 43: Take full page screenshot as checkpoint
+",Trivial,NEW
+42,Order History and Delivery Details Management,"Access order history, view delivery details, send email waivers, and select multiple items for processing.","Step 1: Navigate to orderhistory/order/*
+Step 2: Click on link orderDetails (viewOrderDeliveryDetails)
+Step 3: Click on ti deliveryDetailsModal
+Step 4: Click on ti emailWaiversButton
+Step 5: Click on input email
+Step 6: Enter input value in input email
+Step 7: Click on input sendEmailWaiver
+Step 8: Click on ti login
+Step 9: Click on ti login -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 10: Click on link documentationLinks (backlogReport)
+Step 11: Select items multiple times again in the application.
+	- Step 1: Click on ti select
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+	- Step 6: Click on ti select
+	- Step 7: Click on ti select
+	- Step 8: Click on ti select
+Step 12: Click on div filterHeader (filterHeader)
+Step 13: Select items multiple times again in the application.
+	- Step 1: Click on ti select
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+	- Step 6: Click on ti select
+	- Step 7: Click on ti select
+	- Step 8: Click on ti select
+Step 14: Click on ti select
+Step 15: Click on ti select
+Step 16: Click on ti select
+Step 17: Click on div BacklogReportHeader
+Step 18: Click on input selectAllCheckbox
+Step 19: Click on input fullyDeliveredCheckbox
+Step 20: Click on input fullyDeliveredCheckbox2
+Step 21: Click on input notDeliveredCheckbox
+Step 22: Click on input partiallyDeliveredCheckbox
+Step 23: Click on input notDeliveredCheckbox2
+Step 24: Click on input partiallyDeliveredCheckbox2
+Step 25: Click on input selectAllCheckbox2
+Step 26: Click on span viewDownload
+Step 27: Click on ti downloadExcel
+Step 28: Select multiple items from the list in the application.
+	- Step 1: Click on ti select
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+	- Step 6: Click on ti select
+	- Step 7: Click on ti select
+Step 29: Click on div BacklogReportHeader
+Step 30: Click on ti select
+Step 31: Click on div BacklogReportHeader
+Step 32: Click on ti select
+Step 33: Click on div BacklogReport
+Step 34: Click on ti select
+Step 35: Click on div BacklogReportHeader
+Step 36: Take full page screenshot as checkpoint
+",Trivial,NEW
+47,Search for Material Content and Part Numbers,"Perform a search for material content and part numbers, verifying the results and navigating through the internal resources.","Step 1: Navigate to */*/*
+Step 2: Click on atomic headerSearchBox
+Step 3: Enter input value in atomic headerSearchBox
+Step 4: Click on link qualityReliability
+Step 5: Click on link materialContentSearch -> Navigate to page 'internal resource#materialcontent/home'
+Step 6: Click on textarea partNumberInput
+Step 7: Enter input value in textarea partNumberInput
+Step 8: Click on input searchButton -> Navigate to page 'internal resource#materialcontent/*/search'
+Step 9: Click on textarea partNumberInput2
+Step 10: Click on textarea partNumberInput2
+Step 11: Enter input value in textarea partNumberInput2
+Step 12: Click on input searchButton2
+Step 13: Click on textarea partNumberInput3
+Step 14: Click on textarea partNumberInput3
+Step 15: Enter input value in textarea partNumberInput3
+Step 16: Click on input searchButton2
+Step 17: Click on textarea partNumberInput4
+Step 18: Click on textarea partNumberInput4
+Step 19: Click on textarea partNumberInput4
+Step 20: Click on textarea partNumberInput4
+Step 21: Enter input value in textarea partNumberInput4
+Step 22: Click on input searchButton2
+Step 23: Click on textarea partNumberInput4
+Step 24: Click on textarea partNumberInput4
+Step 25: Enter input value in textarea partNumberInput4
+Step 26: Click on input searchButton2
+Step 27: Take full page screenshot as checkpoint
+",Trivial,NEW
+68,Dynamic Object Handling and Page Verification,"Handle dynamic objects, manage warnings, and verify transitions through the application.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object
+Step 5: Click on ti object
+Step 6: Click on p ChangeNote
+Step 7: Click on p ChangeNote
+Step 8: Click on p ChangeNote
+Step 9: Click on p ChangeNote
+Step 10: Click on div internetExplorerWarning
+Step 11: Click on ti object
+Step 12: Click on header ResponsiveHeader
+Step 13: Handle Internet Explorer warning and proceed with dynamic objects.
+	- Step 1: Click on div internetExplorerWarning
+	- Step 2: Click on ti object
+	- Step 3: Click on ti object
+	- Step 4: Click on ti dynamicObject
+	- Step 5: Click on ti Continue
+	- Step 6: Click on ti object
+	- Step 7: Click on ti object
+Step 14: Continue process with dynamic objects and finalize selection.
+	- Step 1: Click on ti object
+	- Step 2: Click on ti object
+	- Step 3: Click on ti dynamicObject
+	- Step 4: Click on ti Continue
+	- Step 5: Click on ti object
+Step 15: Click on body home2
+Step 16: Click on ti object
+Step 17: Click on ti object
+Step 18: Handle warnings and continue with dynamic object selections.
+	- Step 1: Click on ti dynamicObject
+	- Step 2: Click on ti Continue
+	- Step 3: Click on div internetExplorerWarning
+	- Step 4: Click on ti object
+	- Step 5: Click on ti object
+	- Step 6: Click on ti dynamicObject
+	- Step 7: Click on ti Continue
+	- Step 8: Click on ti object
+	- Step 9: Click on ti object
+Step 19: Click on link ReduceEMIFilterSize
+Step 20: Click on ti object
+Step 21: Click on body home3
+Step 22: Click on ti object
+Step 23: Click on ti object
+Step 24: Click on ti ConnectedAccounts
+Step 25: Click on ti object
+Step 26: Click on ti object
+Step 27: Click on ti object
+Step 28: Click on link ReduceEMIFilterSize
+Step 29: Click on ti object
+Step 30: Click on ti object
+Step 31: Click on ti object
+Step 32: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 33: Click on link ChangeAccount -> Navigate to page ''
+Step 34: Take full page screenshot as checkpoint
+",Trivial,NEW
+74,Resource Categories and Application Links Management,"Manage resource categories, interact with application links, and verify transitions to the home page.","Step 1: Navigate to /
+Step 2: Click on link resourceCategories (Applications)
+Step 3: Click on ti object2
+Step 4: Click on ti object2
+Step 5: Click on ti object2
+Step 6: Click on ti object2 -> Navigate to page 'internal resource#*/homepage.html'
+Step 7: Click on link applicationLinks (ApplicationDomain)
+Step 8: Click on ti HeaderLLCSideSheet
+Step 9: Click on ti HeaderLLCSideSheet
+Step 10: Click on ti HeaderLLCSideSheet
+Step 11: Click on ti HeaderLLCSideSheet
+Step 12: Click on link applicationLinks (Applications3)
+Step 13: Click on ti HeaderLLCSideSheet
+Step 14: Click on ti HeaderLLCSideSheet
+Step 15: Click on ti HeaderLLCSideSheet
+Step 16: Click on ti HeaderLLCSideSheet
+Step 17: Click on link applicationLinks (Application)
+Step 18: Click on ti HeaderLLCSideSheet
+Step 19: Click on ti HeaderLLCSideSheet
+Step 20: Click on ti HeaderLLCSideSheet
+Step 21: Click on ti HeaderLLCSideSheet
+Step 22: Click on link applicationLinks (Application2)
+Step 23: Click on ti HeaderLLCSideSheet
+Step 24: Click on ti HeaderLLCSideSheet
+Step 25: Click on ti HeaderLLCSideSheet
+Step 26: Click on ti HeaderLLCSideSheet
+Step 27: Click on link applicationLinks (Applications4)
+Step 28: Click on link Menu
+Step 29: Click on item Applications
+Step 30: Click on link industrialApplications (Applications5)
+Step 31: Click on link industrialApplications (Industrial)
+Step 32: Click on div ResponsiveHeaderOverlay
+Step 33: Click on link Idioma
+Step 34: Click on ti HeaderLLCSideSheet
+Step 35: Click on ti HeaderLLCSideSheet
+Step 36: Click on ti HeaderLLCSideSheet2 -> Navigate to page '/'
+Step 37: Click on link Menu
+Step 38: Click on link industrialApplications (Applications2)
+Step 39: Click on link industrialApplications (Industrial)
+Step 40: Click on div ResponsiveHeaderOverlay -> Navigate to page ''
+Step 41: Take full page screenshot as checkpoint
+",Trivial,NEW
+62,Product Categories Navigation and Verification,Navigate through product categories and verify access to product links and details.,"Step 1: Navigate to /
+Step 2: Click on link resourceCategories (Applications)
+Step 3: Click on list object
+Step 4: Click on list object
+Step 5: Click on link productCategories (MotorDrives) -> Navigate to page 'overview#*/*/*/overview.html'
+Step 6: Click on div dynamicObject (object)
+Step 7: Click on div dynamicObject (object2)
+Step 8: Click on div dynamicObject (object3)
+Step 9: Click on div dynamicObject (object4)
+Step 10: Click on div dynamicObject (object5)
+Step 11: Click on div dynamicObject (object6)
+Step 12: Click on link productLinks (Products)
+Step 13: Click on link productLinks (Products2)
+Step 14: Click on link productLinks (Products)
+Step 15: Click on link BatteryManagementICs
+Step 16: Click on link productLinks (Products2)
+Step 17: Click on link productLinks (Applications)
+Step 18: Click on link FactoryAutomationAndControl
+Step 19: Take full page screenshot as checkpoint
+",Trivial,NEW
+63,Secure Resources Management and Navigation,"Manage secure resources, handle notifications, and verify internal resource access.","Step 1: Navigate to secureresources
+Step 2: Click on ti DesignToolButton -> Navigate to page 'internal resource#secureresources/*'
+Step 3: Click on ti AlarmNotifications
+Step 4: Click on link Subscribe
+Step 5: Click on ti object12
+Step 6: Click on ti object7
+Step 7: Click on ti object7 -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 8: Click on link path
+Step 9: Click on link documentationLinks (ListManager)
+Step 10: Click on button Notifications
+Step 11: Click on button Close
+Step 12: Click on button Notifications
+Step 13: Click on button Close -> Navigate to page '/'
+Step 14: Click on atomic searchBox
+Step 15: Enter input value in atomic searchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 16: Click on ti toolSnapshot -> Navigate to page 'internal tool#tool/*'
+Step 17: Click on link toolActions (Downloads)
+Step 18: Click on list object
+Step 19: Click on atomic headerSearchBox
+Step 20: Enter input value in atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 21: Click on atomic headerSearchBox2
+Step 22: Enter input value in atomic headerSearchBox2
+Step 23: Click on atomic headerSearchBox2
+Step 24: Click on atomic headerSearchBox2
+Step 25: Click on atomic headerSearchBox2
+Step 26: Enter input value in atomic headerSearchBox2
+Step 27: Click on atomic headerSearchBox2
+Step 28: Enter input value in atomic headerSearchBox2
+Step 29: Click on atomic headerSearchBox2
+Step 30: Click on atomic headerSearchBox2
+Step 31: Click on atomic headerSearchBox2
+Step 32: Click on atomic resultList -> Navigate to page 'internal tool#tool/*'
+Step 33: Click on link toolActions (Downloads)
+Step 34: Click on span downloadOptions (DownloadOptions)
+Step 35: Click on link ViewAllVersions
+Step 36: Click on atomic headerSearchBox
+Step 37: Enter input value in atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 38: Click on ti toolSnapshot -> Navigate to page 'internal tool#tool/*'
+Step 39: Click on link toolActions (Downloads)
+Step 40: Click on span downloadOptions (DownloadOptions2)
+Step 41: Click on link ViewAllVersions2
+Step 42: Click on atomic headerSearchBox
+Step 43: Enter input value in atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 44: Click on ti gpnSnapshot -> Navigate to page 'product#product/*'
+Step 45: Click on link ViewOptions
+Step 46: Click on link REF6025EVM PDK -> Navigate to page ''
+Step 47: Take full page screenshot as checkpoint
+",Trivial,NEW
+44,Internal Documentation Access and Navigation,"Navigate through internal documentation, perform searches, and verify access to various documentation links.","Step 1: Navigate to /
+Step 2: Navigate through internal documentation links.
+	- Step 1: Click on ti dynamicObject
+	- Step 2: Click on ti Continue
+	- Step 3: Click on ti object
+	- Step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+	- Step 5: Click on link documentationLinks
+Step 3: Click on div internetExplorerWarning
+Step 4: Click on ti Login
+Step 5: Click on ti Login
+Step 6: Click on ti radioBannerEngineering
+Step 7: Click on ti continueButton
+Step 8: Click on span filterActions (allFilters)
+Step 9: Click on span filterActions (columnsButton)
+Step 10: Click on ti Login
+Step 11: Click on ti Login -> Navigate to page '/'
+Step 12: Click on ti object
+Step 13: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 14: Click on link documentsAndFiles -> Navigate to page 'file management#*'
+Step 15: Click on ti TabContainer
+Step 16: Click on ti TabContainer2
+Step 17: Click on ti TabContainer
+Step 18: Click on atomic headerSearchBox
+Step 19: Enter input value in atomic headerSearchBox -> Navigate to page 'internal resource#sitesearch/*/docs/*'
+Step 20: Click on atomic resultList
+Step 21: Click on ti object8
+Step 22: Click on main object
+Step 23: Click on main object
+Step 24: Click on ti object8
+Step 25: Click on ti object8 -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 26: Click on link documentsAndFiles -> Navigate to page 'file management#*'
+Step 27: Click on ti TabContainer
+Step 28: Click on ti TabContainer2
+Step 29: Click on ti TabContainer
+Step 30: Click on ti TabContainer2 -> Navigate to page ''
+Step 31: Take full page screenshot as checkpoint
+",Trivial,NEW
+53,Documentation Access and Subscription Management,"Access internal documentation, manage subscriptions, and verify the documentation links and email settings.","Step 1: Navigate to /
+Step 2: Click on ti object
+Step 3: Click on ti object
+Step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 5: Click on link orderHistory -> Navigate to page 'internal resource#orderhistory'
+Step 6: Click on link myTIDashboard
+Step 7: Navigate to backlog report and select multiple items.
+	- Step 1: Click on link BacklogReport3 -> Navigate to page 'project management#*'
+	- Step 2: Click on ti select
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+Step 8: Click on div Status
+Step 9: Access and view project details multiple times.
+	- Step 1: Click on span projectDetails
+	- Step 2: Click on span projectDetails
+	- Step 3: Click on ti select
+	- Step 4: Click on ti select
+	- Step 5: Click on ti select
+	- Step 6: Click on ti select
+Step 10: Click on ti Login
+Step 11: Click on ti Login -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 12: Click on div accountInfo (SuperAdministrator)
+Step 13: Click on link documentationLinks (BacklogReportSubscription) -> Navigate to page 'internal documentation#myti-dashboard/docs/*'
+Step 14: Click on div DailyWeeklyMonthlyEmail
+Step 15: Click on input EmailRecipient1
+Step 16: Click on div DailyWeeklyMonthlyEmail -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'
+Step 17: Click on link documentationLinks (BacklogReportSubscription) -> Navigate to page 'internal documentation#myti-dashboard/docs/*'
+Step 18: Click on input EmailRecipient1
+Step 19: Enter input value in input EmailRecipient1
+Step 20: Click on button Subscribe
+Step 21: Click on button Edit
+Step 22: Select option with input value from select SubscriptionFrequency
+Step 23: Click on button Subscribe2
+Step 24: Click on button Edit
+Step 25: Select option with input value from select SubscriptionFrequency
+Step 26: Click on button Subscribe2
+Step 27: Take full page screenshot as checkpoint
+",Trivial,NEW
+76,Electricity Meter Product Navigation,"Navigate through electricity meter products, verify access, and manage product details.","Step 1: Navigate to */*/*/overview.html
+Step 2: Click on ti ElectricityMeter
+Step 3: Click on ti ElectricityMeter
+Step 4: Click on ti ElectricityMeter
+Step 5: Click on ti ElectricityMeter
+Step 6: Click on ti ElectricityMeter
+Step 7: Click on ti ElectricityMeter
+Step 8: Click on button productCategories (Robotics)
+Step 9: Click on ti dialogPrecisionADCs (DialogHighlyAccurate)
+Step 10: Click on button productCategories (SemiconductorTestATE)
+Step 11: Click on ti dialogPrecisionADCs (DialogHighSpeed)
+Step 12: Click on button productCategories (AerospaceDefense)
+Step 13: Click on ti dialogPrecisionADCs (DialogSpaceEnhanced)
+Step 14: Click on ti ElectricityMeter
+Step 15: Click on button productCategories (FieldTransmitter)
+Step 16: Click on ti dialogPrecisionADCs (DialogPrecisionADCs)
+Step 17: Click on ti ElectricityMeter
+Step 18: Click on ti ElectricityMeter
+Step 19: Click on button productCategories (SemiconductorTestATE)
+Step 20: Click on ti dialogPrecisionADCs (DialogHighSpeed)
+Step 21: Click on button productCategories (FieldTransmitter)
+Step 22: Click on ti dialogPrecisionADCs (DialogPrecisionADCs)
+Step 23: Click on button productCategories (Robotics)
+Step 24: Click on ti dialogPrecisionADCs (DialogHighlyAccurate)
+Step 25: Click on ti ElectricityMeter
+Step 26: Click on ti ElectricityMeter
+Step 27: Click on button productCategories (SemiconductorTestATE)
+Step 28: Click on p Benefits
+Step 29: Click on ti dialogPrecisionADCs (DialogHighSpeed)
+Step 30: Click on button productCategories (AerospaceDefense)
+Step 31: Click on ti dialogPrecisionADCs (DialogSpaceEnhanced)
+Step 32: Click on button productCategories (AerospaceDefense)
+Step 33: Click on ti dialogPrecisionADCs (DialogSpaceEnhanced)
+Step 34: Click on button productCategories (SemiconductorTestATE)
+Step 35: Click on ti dialogPrecisionADCs (DialogHighSpeed)
+Step 36: Click on button productCategories (Robotics)
+Step 37: Click on ti dialogPrecisionADCs (DialogHighlyAccurate)
+Step 38: Click on button productCategories (AerospaceDefense)
+Step 39: Click on link HowSpaceEnhancedProducts
+Step 40: Click on ti ElectricityMeter
+Step 41: Click on ti ElectricityMeter
+Step 42: Click on ti ElectricityMeter
+Step 43: Click on button productCategories (AerospaceDefense) -> Navigate to page ''
+Step 44: Take full page screenshot as checkpoint
 ",Trivial,NEW

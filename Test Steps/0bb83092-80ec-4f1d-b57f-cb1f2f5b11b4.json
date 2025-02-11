@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on ti object",
+        "step 3: Click on ti object",
+        "step 4: Click on header ResponsiveHeader",
+        "step 5: Click on ti object",
+        "step 6: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'",
+        "step 7: Click on div PersonalAccount",
+        "step 8: Click on link PersonalInformation -> Navigate to page 'internal documentation#myti/docs/updateprofile'",
+        "step 9: Select option with input value from select Role -> Navigate to page ''",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to about-ti/*/*",
+        "step 2: Click on body EventsBasePage",
+        "step 3: Click on ti TabContainer",
+        "step 4: Click on ti TabContainer2",
+        "step 5: Click on link learnMore (LearnMoreWiFi)",
+        "step 6: Click on ti tabContainers (TabContainer3)",
+        "step 7: Click on ti tabContainers (TabContainer4)",
+        "step 8: Click on button PlayVideo",
+        "step 9: Click on button Pause",
+        "step 10: Click on div StoryWithTabs",
+        "step 11: Click on body EventsBasePage2",
+        "step 12: Click on ti TabContainer5",
+        "step 13: Click on ti TabContainer6",
+        "step 14: Click on ti TabContainer5",
+        "step 15: Click on ti TabContainer6 -> Navigate to page ''",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

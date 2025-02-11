@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link resourceCategories (orderingResources)",
+        "step 3: Click on ti object",
+        "step 4: Click on ti object -> Navigate to page 'internal documentation#myti-dashboard/docs/mytidashboard'",
+        "step 5: Click on ti object",
+        "step 6: Click on ti object2",
+        "step 7: Click on main internalDocumentation (internalDocumentation) -> Navigate to page ''",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}

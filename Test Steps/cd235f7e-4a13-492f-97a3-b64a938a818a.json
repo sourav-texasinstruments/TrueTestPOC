@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link resourceCategories (Products)",
+        "step 3: Click on link Amplifiers -> Navigate to page 'internal resource#*/overview.html'",
+        "step 4: Click on link ViewAllProducts -> Navigate to page 'internal resource#*/products.html'",
+        "step 5: Click on div object",
+        "step 6: Click on ti object9",
+        "step 7: Click on div Description -> Navigate to page ''",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}
